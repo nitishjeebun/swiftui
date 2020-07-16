@@ -13,11 +13,12 @@
 
 - [Shoe App](https://github.com/duonghominhhuy/swiftui-shoe-app) 
 
-### Others
-
-- SwiftUI 2.0.
-
 ### Find me on:
 
 - GitHub [/duonghominhhuy](https://github.com/duonghominhhuy)
 - Twitter [@duonghominhhuy](https://twitter.com/duonghominhhuy)
+
+
+
+
+
