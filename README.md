@@ -12,13 +12,11 @@
 ### Kavsoft
 
 - [Shoe App](https://github.com/duonghominhhuy/swiftui-shoe-app) 
+- [Fashion App](https://github.com/duonghominhhuy/swiftui-fashion-app) 
 
 ### Find me on:
 
 - GitHub [/duonghominhhuy](https://github.com/duonghominhhuy)
 - Twitter [@duonghominhhuy](https://twitter.com/duonghominhhuy)
-
-
-
 
 
