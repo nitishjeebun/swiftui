@@ -40,5 +40,6 @@
 
 - GitHub [/duonghominhhuy](https://github.com/duonghominhhuy)
 - Twitter [@duonghominhhuy](https://twitter.com/duonghominhhuy)
+- Find more Practical topics on [Practical List](https://github.com/duonghominhhuy/practical-list)
 
 
