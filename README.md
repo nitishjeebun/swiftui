@@ -38,8 +38,8 @@
 
 ### Find me on:
 
-- GitHub [/duonghominhhuy](https://github.com/duonghominhhuy)
-- Twitter [@duonghominhhuy](https://twitter.com/duonghominhhuy)
+- [GitHub](https://github.com/duonghominhhuy)
+- [Twitter](https://twitter.com/duonghominhhuy)
 - Find more Practical topics on [Practical List](https://github.com/duonghominhhuy/practical-list)
 
 
