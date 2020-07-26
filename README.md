@@ -12,7 +12,7 @@
 ### Kavsoft
 - [Story App UI - Custom Carousel Slider](https://github.com/duonghominhhuy/swiftui-story-app)
 - Gradient Picker - Grids, Search Bar, Hex To RGB
-- [JSON Parsing - Completion Handlers](https://github.com/duonghominhhuy/swiftui-json-parsing-app)
+- [JSON Parsing - Completion Handlers](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-json-parsing-app)
 - Music Player UI - Neumorphic Design 
 - 3D Cube - Instagram Story 3D Cube Transition
 - [Fashion App UI - Translucent Background Effect](https://github.com/duonghominhhuy/swiftui-fashion-app)
