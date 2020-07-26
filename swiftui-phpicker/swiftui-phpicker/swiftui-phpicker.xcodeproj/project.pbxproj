@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64D769BE24C961D20032576F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D769BD24C961D20032576F /* AppDelegate.swift */; };
+		64D769C024C961D20032576F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D769BF24C961D20032576F /* SceneDelegate.swift */; };
+		64D769C224C961D20032576F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D769C124C961D20032576F /* ContentView.swift */; };
+		64D769C424C961D40032576F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D769C324C961D40032576F /* Assets.xcassets */; };
+		64D769C724C961D40032576F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D769C624C961D40032576F /* Preview Assets.xcassets */; };
+		64D769CA24C961D40032576F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D769C824C961D40032576F /* LaunchScreen.storyboard */; };
+		64D769D524C961D40032576F /* swiftui_phpickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D769D424C961D40032576F /* swiftui_phpickerTests.swift */; };
+		64D769E024C961D40032576F /* swiftui_phpickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D769DF24C961D40032576F /* swiftui_phpickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64D769D124C961D40032576F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64D769B224C961D20032576F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D769B924C961D20032576F;
+			remoteInfo = "swiftui-phpicker";
+		};
+		64D769DC24C961D40032576F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64D769B224C961D20032576F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D769B924C961D20032576F;
+			remoteInfo = "swiftui-phpicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64D769BA24C961D20032576F /* swiftui-phpicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-phpicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D769BD24C961D20032576F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64D769BF24C961D20032576F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64D769C124C961D20032576F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64D769C324C961D40032576F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D769C624C961D40032576F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64D769C924C961D40032576F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64D769CB24C961D40032576F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D769D024C961D40032576F /* swiftui-phpickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-phpickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D769D424C961D40032576F /* swiftui_phpickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_phpickerTests.swift; sourceTree = "<group>"; };
+		64D769D624C961D40032576F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D769DB24C961D40032576F /* swiftui-phpickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-phpickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D769DF24C961D40032576F /* swiftui_phpickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_phpickerUITests.swift; sourceTree = "<group>"; };
+		64D769E124C961D40032576F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D769B724C961D20032576F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D769CD24C961D40032576F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D769D824C961D40032576F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64D769B124C961D20032576F = {
+			isa = PBXGroup;
+			children = (
+				64D769BC24C961D20032576F /* swiftui-phpicker */,
+				64D769D324C961D40032576F /* swiftui-phpickerTests */,
+				64D769DE24C961D40032576F /* swiftui-phpickerUITests */,
+				64D769BB24C961D20032576F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64D769BB24C961D20032576F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D769BA24C961D20032576F /* swiftui-phpicker.app */,
+				64D769D024C961D40032576F /* swiftui-phpickerTests.xctest */,
+				64D769DB24C961D40032576F /* swiftui-phpickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D769BC24C961D20032576F /* swiftui-phpicker */ = {
+			isa = PBXGroup;
+			children = (
+				64D769BD24C961D20032576F /* AppDelegate.swift */,
+				64D769BF24C961D20032576F /* SceneDelegate.swift */,
+				64D769C124C961D20032576F /* ContentView.swift */,
+				64D769C324C961D40032576F /* Assets.xcassets */,
+				64D769C824C961D40032576F /* LaunchScreen.storyboard */,
+				64D769CB24C961D40032576F /* Info.plist */,
+				64D769C524C961D40032576F /* Preview Content */,
+			);
+			path = "swiftui-phpicker";
+			sourceTree = "<group>";
+		};
+		64D769C524C961D40032576F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64D769C624C961D40032576F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64D769D324C961D40032576F /* swiftui-phpickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				64D769D424C961D40032576F /* swiftui_phpickerTests.swift */,
+				64D769D624C961D40032576F /* Info.plist */,
+			);
+			path = "swiftui-phpickerTests";
+			sourceTree = "<group>";
+		};
+		64D769DE24C961D40032576F /* swiftui-phpickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64D769DF24C961D40032576F /* swiftui_phpickerUITests.swift */,
+				64D769E124C961D40032576F /* Info.plist */,
+			);
+			path = "swiftui-phpickerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D769B924C961D20032576F /* swiftui-phpicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D769E424C961D40032576F /* Build configuration list for PBXNativeTarget "swiftui-phpicker" */;
+			buildPhases = (
+				64D769B624C961D20032576F /* Sources */,
+				64D769B724C961D20032576F /* Frameworks */,
+				64D769B824C961D20032576F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui-phpicker";
+			productName = "swiftui-phpicker";
+			productReference = 64D769BA24C961D20032576F /* swiftui-phpicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64D769CF24C961D40032576F /* swiftui-phpickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D769E724C961D40032576F /* Build configuration list for PBXNativeTarget "swiftui-phpickerTests" */;
+			buildPhases = (
+				64D769CC24C961D40032576F /* Sources */,
+				64D769CD24C961D40032576F /* Frameworks */,
+				64D769CE24C961D40032576F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D769D224C961D40032576F /* PBXTargetDependency */,
+			);
+			name = "swiftui-phpickerTests";
+			productName = "swiftui-phpickerTests";
+			productReference = 64D769D024C961D40032576F /* swiftui-phpickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64D769DA24C961D40032576F /* swiftui-phpickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D769EA24C961D40032576F /* Build configuration list for PBXNativeTarget "swiftui-phpickerUITests" */;
+			buildPhases = (
+				64D769D724C961D40032576F /* Sources */,
+				64D769D824C961D40032576F /* Frameworks */,
+				64D769D924C961D40032576F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D769DD24C961D40032576F /* PBXTargetDependency */,
+			);
+			name = "swiftui-phpickerUITests";
+			productName = "swiftui-phpickerUITests";
+			productReference = 64D769DB24C961D40032576F /* swiftui-phpickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D769B224C961D20032576F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Huy D.";
+				TargetAttributes = {
+					64D769B924C961D20032576F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					64D769CF24C961D40032576F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 64D769B924C961D20032576F;
+					};
+					64D769DA24C961D40032576F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 64D769B924C961D20032576F;
+					};
+				};
+			};
+			buildConfigurationList = 64D769B524C961D20032576F /* Build configuration list for PBXProject "swiftui-phpicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64D769B124C961D20032576F;
+			productRefGroup = 64D769BB24C961D20032576F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D769B924C961D20032576F /* swiftui-phpicker */,
+				64D769CF24C961D40032576F /* swiftui-phpickerTests */,
+				64D769DA24C961D40032576F /* swiftui-phpickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D769B824C961D20032576F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D769CA24C961D40032576F /* LaunchScreen.storyboard in Resources */,
+				64D769C724C961D40032576F /* Preview Assets.xcassets in Resources */,
+				64D769C424C961D40032576F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D769CE24C961D40032576F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D769D924C961D40032576F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D769B624C961D20032576F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D769BE24C961D20032576F /* AppDelegate.swift in Sources */,
+				64D769C024C961D20032576F /* SceneDelegate.swift in Sources */,
+				64D769C224C961D20032576F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D769CC24C961D40032576F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D769D524C961D40032576F /* swiftui_phpickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D769D724C961D40032576F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D769E024C961D40032576F /* swiftui_phpickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64D769D224C961D40032576F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D769B924C961D20032576F /* swiftui-phpicker */;
+			targetProxy = 64D769D124C961D40032576F /* PBXContainerItemProxy */;
+		};
+		64D769DD24C961D40032576F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D769B924C961D20032576F /* swiftui-phpicker */;
+			targetProxy = 64D769DC24C961D40032576F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64D769C824C961D40032576F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D769C924C961D40032576F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64D769E224C961D40032576F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64D769E324C961D40032576F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64D769E524C961D40032576F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-phpicker/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "swiftui-phpicker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-phpicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64D769E624C961D40032576F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-phpicker/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "swiftui-phpicker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-phpicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64D769E824C961D40032576F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				INFOPLIST_FILE = "swiftui-phpickerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-phpickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftui-phpicker.app/swiftui-phpicker";
+			};
+			name = Debug;
+		};
+		64D769E924C961D40032576F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				INFOPLIST_FILE = "swiftui-phpickerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-phpickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftui-phpicker.app/swiftui-phpicker";
+			};
+			name = Release;
+		};
+		64D769EB24C961D40032576F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				INFOPLIST_FILE = "swiftui-phpickerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-phpickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swiftui-phpicker";
+			};
+			name = Debug;
+		};
+		64D769EC24C961D40032576F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				INFOPLIST_FILE = "swiftui-phpickerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-phpickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swiftui-phpicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D769B524C961D20032576F /* Build configuration list for PBXProject "swiftui-phpicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D769E224C961D40032576F /* Debug */,
+				64D769E324C961D40032576F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D769E424C961D40032576F /* Build configuration list for PBXNativeTarget "swiftui-phpicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D769E524C961D40032576F /* Debug */,
+				64D769E624C961D40032576F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D769E724C961D40032576F /* Build configuration list for PBXNativeTarget "swiftui-phpickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D769E824C961D40032576F /* Debug */,
+				64D769E924C961D40032576F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D769EA24C961D40032576F /* Build configuration list for PBXNativeTarget "swiftui-phpickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D769EB24C961D40032576F /* Debug */,
+				64D769EC24C961D40032576F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64D769B224C961D20032576F /* Project object */;
+}
