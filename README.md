@@ -10,7 +10,7 @@
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/duonghominhhuy/practical-swiftui/pulls)
 
 ### Kavsoft
-- Story App UI - Custom Carousel Slider
+- [Story App UI - Custom Carousel Slider](https://github.com/duonghominhhuy/swiftui-story-app)
 - Gradient Picker - Grids, Search Bar, Hex To RGB
 - [JSON Parsing - Completion Handlers](https://github.com/duonghominhhuy/swiftui-json-parsing-app)
 - Music Player UI - Neumorphic Design 
