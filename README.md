@@ -10,14 +10,14 @@
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/duonghominhhuy/practical-swiftui/pulls)
 
 ### Kavsoft
-- [Story App UI - Custom Carousel Slider](https://github.com/duonghominhhuy/swiftui-story-app)
+- [Story App UI - Custom Carousel Slider](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-story-app)
 - Gradient Picker - Grids, Search Bar, Hex To RGB
 - [JSON Parsing - Completion Handlers](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-json-parsing-app)
 - Music Player UI - Neumorphic Design 
 - 3D Cube - Instagram Story 3D Cube Transition
-- [Fashion App UI - Translucent Background Effect](https://github.com/duonghominhhuy/swiftui-fashion-app)
-- [Shoe App - Custom Tab Menu's](https://github.com/duonghominhhuy/swiftui-shoe-app) 
-- [PHPicker - SwiftUI PhotosUI PHPicker](https://github.com/duonghominhhuy/swiftui-phpicker)
+- [Fashion App UI - Translucent Background Effect](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-fashion-app)
+- [Shoe App - Custom Tab Menu's](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-shoe-app) 
+- [PHPicker - SwiftUI PhotosUI PHPicker](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-phpicker)
 - iMessage Pinned View - Custom Swipe Actions
 - Curved Tab Bar - Custom Paths, Solid Animations
 - Parallax App - Parallax Scrolling
