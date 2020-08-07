@@ -33,7 +33,7 @@
 - Furniture App
 - Cloud Firestore CRUD Operations
 - Full Stack Login Page
-- SwiftUI MVVM Design Pattern
+- [SwiftUI MVVM Design Pattern](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-mvvm-design-pattern)
 
 
 ### Find me on:
