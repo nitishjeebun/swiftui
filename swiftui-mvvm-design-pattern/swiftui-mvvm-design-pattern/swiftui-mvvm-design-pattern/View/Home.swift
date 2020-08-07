@@ -13,9 +13,17 @@ struct Home: View {
     @ObservedObject var users = FectchAccounts()
     
     var body: some View {
-        ScrollView(.vertical, showsIndicators: false) {
-            VStack(spacing: 0) {
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            if self.users.accounts.isEmpty {
+                Indicator()
+            } else {
+                ScrollView(.vertical, showsIndicators: false) {
+                    VStack(spacing: 0) {
+                        ForEach(self.users.accounts) { user in
+                            CardView(account: user)
+                        }
+                    }
+                }
             }
         }
         .onAppear {

@@ -26,6 +26,9 @@ class FectchAccounts: ObservableObject {
             do {
                 let decoder = try JSONDecoder().decode([Account].self, from: users)
                 print(decoder)
+                DispatchQueue.main.async {
+                    self.accounts = decoder
+                }
             } catch {
                 print(error.localizedDescription)
             }
