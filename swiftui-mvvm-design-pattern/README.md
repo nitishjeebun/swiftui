@@ -14,7 +14,9 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 11.6.
-- JSON Parsing.
+- MVVM Design Pattern.
+- JSON Decoder.
+- UIActivityIndicatorView.
 
 ### Find me on:
 
