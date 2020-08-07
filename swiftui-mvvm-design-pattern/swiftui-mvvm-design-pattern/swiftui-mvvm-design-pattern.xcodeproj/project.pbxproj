@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,10 @@
 		6460994324DD051D002056FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6460994124DD051D002056FF /* LaunchScreen.storyboard */; };
 		6460994E24DD051D002056FF /* swiftui_mvvm_design_patternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6460994D24DD051D002056FF /* swiftui_mvvm_design_patternTests.swift */; };
 		6460995924DD051D002056FF /* swiftui_mvvm_design_patternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6460995824DD051D002056FF /* swiftui_mvvm_design_patternUITests.swift */; };
+		6460996824DD06A0002056FF /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6460996724DD06A0002056FF /* SDWebImageSwiftUI */; };
+		6460996D24DD0707002056FF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6460996C24DD0707002056FF /* Home.swift */; };
+		6460996F24DD0AEB002056FF /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6460996E24DD0AEB002056FF /* Account.swift */; };
+		6460997124DD0B7E002056FF /* FetchAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6460997024DD0B7E002056FF /* FetchAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,9 @@
 		6460995424DD051D002056FF /* swiftui-mvvm-design-patternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-mvvm-design-patternUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6460995824DD051D002056FF /* swiftui_mvvm_design_patternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_mvvm_design_patternUITests.swift; sourceTree = "<group>"; };
 		6460995A24DD051D002056FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6460996C24DD0707002056FF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		6460996E24DD0AEB002056FF /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		6460997024DD0B7E002056FF /* FetchAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6460996824DD06A0002056FF /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +107,11 @@
 		6460993524DD051B002056FF /* swiftui-mvvm-design-pattern */ = {
 			isa = PBXGroup;
 			children = (
+				6460996924DD06D9002056FF /* Model */,
+				6460996A24DD06E5002056FF /* View */,
+				6460996B24DD06EC002056FF /* ViewModel */,
 				6460993624DD051B002056FF /* AppDelegate.swift */,
 				6460993824DD051B002056FF /* SceneDelegate.swift */,
-				6460993A24DD051B002056FF /* ContentView.swift */,
 				6460993C24DD051D002056FF /* Assets.xcassets */,
 				6460994124DD051D002056FF /* LaunchScreen.storyboard */,
 				6460994424DD051D002056FF /* Info.plist */,
@@ -136,6 +146,31 @@
 			path = "swiftui-mvvm-design-patternUITests";
 			sourceTree = "<group>";
 		};
+		6460996924DD06D9002056FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6460996E24DD0AEB002056FF /* Account.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6460996A24DD06E5002056FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6460993A24DD051B002056FF /* ContentView.swift */,
+				6460996C24DD0707002056FF /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6460996B24DD06EC002056FF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6460997024DD0B7E002056FF /* FetchAccount.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +187,9 @@
 			dependencies = (
 			);
 			name = "swiftui-mvvm-design-pattern";
+			packageProductDependencies = (
+				6460996724DD06A0002056FF /* SDWebImageSwiftUI */,
+			);
 			productName = "swiftui-mvvm-design-pattern";
 			productReference = 6460993324DD051B002056FF /* swiftui-mvvm-design-pattern.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +262,9 @@
 				Base,
 			);
 			mainGroup = 6460992A24DD051B002056FF;
+			packageReferences = (
+				6460996624DD06A0002056FF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 6460993424DD051B002056FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,8 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6460997124DD0B7E002056FF /* FetchAccount.swift in Sources */,
+				6460996F24DD0AEB002056FF /* Account.swift in Sources */,
 				6460993724DD051B002056FF /* AppDelegate.swift in Sources */,
 				6460993924DD051B002056FF /* SceneDelegate.swift in Sources */,
+				6460996D24DD0707002056FF /* Home.swift in Sources */,
 				6460993B24DD051B002056FF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -594,6 +638,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6460996624DD06A0002056FF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6460996724DD06A0002056FF /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6460996624DD06A0002056FF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6460992B24DD051B002056FF /* Project object */;
 }
