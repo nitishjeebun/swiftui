@@ -11,6 +11,8 @@ import SwiftUI
 struct Registration: View {
     
     @State var images: [Data] = [Data(), Data(), Data(), Data()]
+    @State var imagePicker: Bool = false
+    @State var index = 0
     @Environment(\.presentationMode) var present
     
     var body: some View {
@@ -21,9 +23,9 @@ struct Registration: View {
                         self.present.wrappedValue.dismiss()
                     }) {
                         Image(systemName: "chevron.left")
-                        .font(.system(size: 26, weight: .bold))
-                        .foregroundColor(.blue)
-                        .padding(.trailing, 10)
+                            .font(.system(size: 26, weight: .bold))
+                            .foregroundColor(.blue)
+                            .padding(.trailing, 10)
                     }
                     Text("Create a Profile for You")
                         .font(.title)
@@ -34,7 +36,8 @@ struct Registration: View {
                 .padding(.top, 25)
                 HStack(spacing: 15) {
                     Button(action: {
-                        
+                        self.index = 0
+                        self.imagePicker.toggle()
                     }) {
                         ZStack {
                             if self.images[0].count == 0 {
@@ -45,13 +48,17 @@ struct Registration: View {
                             } else {
                                 Image(uiImage: UIImage(data: self.images[0])!)
                                     .resizable()
+                                    .renderingMode(.original)
+                                    .aspectRatio(contentMode: .fill)
+                                    .frame(height: 100)
                                     .cornerRadius(10)
                             }
                         }
                         .frame(height: 100)
                     }
                     Button(action: {
-                        
+                        self.index = 1
+                        self.imagePicker.toggle()
                     }) {
                         ZStack {
                             if self.images[1].count == 0 {
@@ -62,6 +69,9 @@ struct Registration: View {
                             } else {
                                 Image(uiImage: UIImage(data: self.images[1])!)
                                     .resizable()
+                                    .renderingMode(.original)
+                                    .aspectRatio(contentMode: .fill)
+                                    .frame(height: 100)
                                     .cornerRadius(10)
                             }
                         }
@@ -70,7 +80,8 @@ struct Registration: View {
                 }
                 HStack(spacing: 15) {
                     Button(action: {
-                        
+                        self.index = 2
+                        self.imagePicker.toggle()
                     }) {
                         ZStack {
                             if self.images[2].count == 0 {
@@ -81,13 +92,17 @@ struct Registration: View {
                             } else {
                                 Image(uiImage: UIImage(data: self.images[2])!)
                                     .resizable()
+                                    .renderingMode(.original)
+                                    .aspectRatio(contentMode: .fill)
+                                    .frame(height: 100)
                                     .cornerRadius(10)
                             }
                         }
                         .frame(height: 100)
                     }
                     Button(action: {
-                        
+                        self.index = 3
+                        self.imagePicker.toggle()
                     }) {
                         ZStack {
                             if self.images[3].count == 0 {
@@ -98,6 +113,9 @@ struct Registration: View {
                             } else {
                                 Image(uiImage: UIImage(data: self.images[3])!)
                                     .resizable()
+                                    .renderingMode(.original)
+                                    .aspectRatio(contentMode: .fill)
+                                    .frame(height: 100)
                                     .cornerRadius(10)
                             }
                         }
@@ -125,6 +143,11 @@ struct Registration: View {
         .background(Color("Color").edgesIgnoringSafeArea(.all))
         .navigationBarTitle("")
         .navigationBarHidden(true)
+        .sheet(isPresented: self.$imagePicker) {
+            ImagePicker(showPicker: self.$imagePicker,
+                        imageData: self.$images[self.index]
+            )
+        }
     }
     
     func verifyImage() -> Bool {
