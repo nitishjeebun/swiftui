@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		644C9AB724F2079B000CDDAF /* ProfileCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644C9AB624F2079B000CDDAF /* ProfileCreation.swift */; };
 		644C9AB924F20ADB000CDDAF /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644C9AB824F20ADB000CDDAF /* MultilineTextField.swift */; };
+		644C9ABB24F21088000CDDAF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644C9ABA24F21088000CDDAF /* Home.swift */; };
 		649CEEB124F0748F001D8506 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CEEB024F0748F001D8506 /* Login.swift */; };
 		649CEEB324F07EDD001D8506 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CEEB224F07EDD001D8506 /* Verification.swift */; };
 		649CEEB524F08C5D001D8506 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CEEB424F08C5D001D8506 /* Registration.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		644C9AB624F2079B000CDDAF /* ProfileCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCreation.swift; sourceTree = "<group>"; };
 		644C9AB824F20ADB000CDDAF /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
+		644C9ABA24F21088000CDDAF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		649CEEB024F0748F001D8506 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		649CEEB224F07EDD001D8506 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
 		649CEEB424F08C5D001D8506 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				649CEEB624F09684001D8506 /* ImagePicker.swift */,
 				644C9AB624F2079B000CDDAF /* ProfileCreation.swift */,
 				644C9AB824F20ADB000CDDAF /* MultilineTextField.swift */,
+				644C9ABA24F21088000CDDAF /* Home.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			files = (
 				649CEEB324F07EDD001D8506 /* Verification.swift in Sources */,
 				64BBC0E424DF83FC00106FC5 /* AppDelegate.swift in Sources */,
+				644C9ABB24F21088000CDDAF /* Home.swift in Sources */,
 				64BBC0E624DF83FC00106FC5 /* SceneDelegate.swift in Sources */,
 				649CEEB724F09684001D8506 /* ImagePicker.swift in Sources */,
 				64BBC0E824DF83FC00106FC5 /* ContentView.swift in Sources */,

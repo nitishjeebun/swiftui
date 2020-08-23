@@ -137,7 +137,7 @@ struct Registration: View {
                         .background(Color.blue)
                         .clipShape(Capsule())
                 }
-                .padding(.top, 10)
+                .padding(.top, 25)
                 .opacity(self.verifyImage() ? 1 : 0.35)
                 .disabled(self.verifyImage() ? false : true)
                 Spacer()

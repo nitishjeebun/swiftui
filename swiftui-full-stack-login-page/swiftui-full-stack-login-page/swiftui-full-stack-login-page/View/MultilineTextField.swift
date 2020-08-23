@@ -22,6 +22,7 @@ struct MultilineTextField: UIViewRepresentable {
         view.textColor = .gray
         view.font = .systemFont(ofSize: 18)
         view.backgroundColor = .clear
+        view.returnKeyType = .done
         view.delegate = context.coordinator
         return view
     }
@@ -49,7 +50,9 @@ struct MultilineTextField: UIViewRepresentable {
         }
         
         func textViewDidBeginEditing(_ textView: UITextView) {
-            parent.text = ""
+            if parent.text == "" {
+                textView.text = ""
+            }
         }
         
     }

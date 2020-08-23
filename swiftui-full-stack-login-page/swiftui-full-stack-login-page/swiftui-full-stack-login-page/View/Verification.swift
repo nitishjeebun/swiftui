@@ -19,7 +19,7 @@ struct Verification: View {
             NavigationLink(destination: Registration(), isActive: self.$showRegistration) {
                 Text("")
             }
-            VStack {
+            VStack(spacing: 35) {
                 HStack(spacing: 5) {
                     Button(action: {
                         self.present.wrappedValue.dismiss()
@@ -55,6 +55,7 @@ struct Verification: View {
                         .background(Color.blue)
                         .clipShape(Capsule())
                 }
+                .padding(.top, 25)
                 .opacity(self.code.isEmpty ? 0.35 : 1)
                 .disabled(self.code.isEmpty ? true : false)
                 Spacer()

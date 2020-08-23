@@ -19,7 +19,7 @@ struct Login: View {
             NavigationLink(destination: Verification(), isActive: self.$showVerification) {
                 Text("")
             }
-            VStack {
+            VStack(spacing: 35) {
                 HStack {
                     Text("Login")
                         .font(.system(size: 30))
@@ -54,6 +54,7 @@ struct Login: View {
                         .background(Color.blue)
                         .clipShape(Capsule())
                 }
+                .padding(.top, 25)
                 .opacity((self.countryCode.isEmpty || self.number.isEmpty) ? 0.35 : 1)
                 .disabled((self.countryCode.isEmpty || self.number.isEmpty) ? true : false)
                 Spacer()

@@ -14,14 +14,16 @@ struct ProfileCreation: View {
     @State var username: String = ""
     @State var age: String = ""
     @State var about: String = ""
+    @State var height: CGFloat = 0
+    @State var showHome: Bool = false
     @Environment(\.presentationMode) var present
     
     var body: some View {
         ZStack {
-            //              NavigationLink(destination: Registration(), isActive: self.$showRegistration) {
-            //                  Text("")
-            //              }
-            VStack(spacing: 25) {
+            NavigationLink(destination: Home(), isActive: self.$showHome) {
+                Text("")
+            }
+            VStack(spacing: 35) {
                 HStack(spacing: 5) {
                     Button(action: {
                         self.present.wrappedValue.dismiss()
@@ -45,6 +47,7 @@ struct ProfileCreation: View {
                         .background(Color("Color1"))
                         .clipShape(Capsule())
                     TextField("Age", text: self.$age)
+                        .keyboardType(.numberPad)
                         .frame(width: 80)
                         .padding(.vertical, 10)
                         .padding(.horizontal)
@@ -56,7 +59,7 @@ struct ProfileCreation: View {
                     .background(Color("Color1"))
                     .cornerRadius(10)
                 Button(action: {
-                    //                      self.showRegistration.toggle()
+                    self.showHome.toggle()
                 }) {
                     Text("Create")
                         .fontWeight(.bold)
@@ -66,6 +69,7 @@ struct ProfileCreation: View {
                         .background(Color.blue)
                         .clipShape(Capsule())
                 }
+                .padding(.top, 25)
                 .opacity(self.isFilled() ? 0.35 : 1)
                 .disabled(self.isFilled() ? true : false)
                 Spacer()
@@ -78,7 +82,23 @@ struct ProfileCreation: View {
                 .onTapGesture {
                     UIApplication.shared.windows.first?.rootViewController?.view.endEditing(true)
             }
+            
         )
+            .padding(.bottom, self.height)
+            .onAppear(perform: {
+                NotificationCenter.default.addObserver(forName: UIResponder.keyboardWillShowNotification, object: nil, queue: .main) { (data) in
+                    guard let info = data.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue else {
+                        return
+                    }
+                    withAnimation {
+                        // remove bottom edge spacing
+                        self.height = info.cgRectValue.height - (UIApplication.shared.windows.first?.safeAreaInsets.bottom ?? 0)
+                    }
+                }
+                NotificationCenter.default.addObserver(forName: UIResponder.keyboardDidHideNotification, object: nil, queue: .main) { (_) in
+                    self.height = 0
+                }
+            })
             .navigationBarTitle("")
             .navigationBarHidden(true)
     }
