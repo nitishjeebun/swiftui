@@ -11,12 +11,16 @@ import SwiftUI
 struct Registration: View {
     
     @State var images: [Data] = [Data(), Data(), Data(), Data()]
-    @State var imagePicker: Bool = false
-    @State var index = 0
+    @State var showImagePicker: Bool = false
+    @State var imageIndex: Int = 0
+    @State var showProfile: Bool = false
     @Environment(\.presentationMode) var present
     
     var body: some View {
         ZStack {
+            NavigationLink(destination: ProfileCreation(images: self.$images), isActive: self.$showProfile) {
+                Text("")
+            }
             VStack(spacing: 35) {
                 HStack {
                     Button(action: {
@@ -36,8 +40,8 @@ struct Registration: View {
                 .padding(.top, 25)
                 HStack(spacing: 15) {
                     Button(action: {
-                        self.index = 0
-                        self.imagePicker.toggle()
+                        self.imageIndex = 0
+                        self.showImagePicker.toggle()
                     }) {
                         ZStack {
                             if self.images[0].count == 0 {
@@ -57,8 +61,8 @@ struct Registration: View {
                         .frame(height: 100)
                     }
                     Button(action: {
-                        self.index = 1
-                        self.imagePicker.toggle()
+                        self.imageIndex = 1
+                        self.showImagePicker.toggle()
                     }) {
                         ZStack {
                             if self.images[1].count == 0 {
@@ -80,8 +84,8 @@ struct Registration: View {
                 }
                 HStack(spacing: 15) {
                     Button(action: {
-                        self.index = 2
-                        self.imagePicker.toggle()
+                        self.imageIndex = 2
+                        self.showImagePicker.toggle()
                     }) {
                         ZStack {
                             if self.images[2].count == 0 {
@@ -101,8 +105,8 @@ struct Registration: View {
                         .frame(height: 100)
                     }
                     Button(action: {
-                        self.index = 3
-                        self.imagePicker.toggle()
+                        self.imageIndex = 3
+                        self.showImagePicker.toggle()
                     }) {
                         ZStack {
                             if self.images[3].count == 0 {
@@ -123,7 +127,7 @@ struct Registration: View {
                     }
                 }
                 Button(action: {
-                    
+                    self.showProfile.toggle()
                 }) {
                     Text("Proceed")
                         .fontWeight(.bold)
@@ -143,9 +147,9 @@ struct Registration: View {
         .background(Color("Color").edgesIgnoringSafeArea(.all))
         .navigationBarTitle("")
         .navigationBarHidden(true)
-        .sheet(isPresented: self.$imagePicker) {
-            ImagePicker(showPicker: self.$imagePicker,
-                        imageData: self.$images[self.index]
+        .sheet(isPresented: self.$showImagePicker) {
+            ImagePicker(showPicker: self.$showImagePicker,
+                        imageData: self.$images[self.imageIndex]
             )
         }
     }
