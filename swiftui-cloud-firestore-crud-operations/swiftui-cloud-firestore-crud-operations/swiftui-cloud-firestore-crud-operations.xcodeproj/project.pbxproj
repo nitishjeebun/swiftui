@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		645D2E0924F3640100FF61AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D2E0824F3640100FF61AD /* AppDelegate.swift */; };
+		645D2E0B24F3640100FF61AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D2E0A24F3640100FF61AD /* SceneDelegate.swift */; };
+		645D2E0D24F3640100FF61AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D2E0C24F3640100FF61AD /* ContentView.swift */; };
+		645D2E0F24F3640400FF61AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645D2E0E24F3640400FF61AD /* Assets.xcassets */; };
+		645D2E1224F3640400FF61AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645D2E1124F3640400FF61AD /* Preview Assets.xcassets */; };
+		645D2E1524F3640400FF61AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645D2E1324F3640400FF61AD /* LaunchScreen.storyboard */; };
+		645D2E2024F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D2E1F24F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsTests.swift */; };
+		645D2E2B24F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D2E2A24F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		645D2E1C24F3640400FF61AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 645D2DFD24F3640100FF61AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 645D2E0424F3640100FF61AD;
+			remoteInfo = "swiftui-cloud-firestore-crud-operations";
+		};
+		645D2E2724F3640500FF61AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 645D2DFD24F3640100FF61AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 645D2E0424F3640100FF61AD;
+			remoteInfo = "swiftui-cloud-firestore-crud-operations";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		645D2E0524F3640100FF61AD /* swiftui-cloud-firestore-crud-operations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-cloud-firestore-crud-operations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		645D2E0824F3640100FF61AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		645D2E0A24F3640100FF61AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		645D2E0C24F3640100FF61AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		645D2E0E24F3640400FF61AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		645D2E1124F3640400FF61AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		645D2E1424F3640400FF61AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		645D2E1624F3640400FF61AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645D2E1B24F3640400FF61AD /* swiftui-cloud-firestore-crud-operationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-cloud-firestore-crud-operationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		645D2E1F24F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_cloud_firestore_crud_operationsTests.swift; sourceTree = "<group>"; };
+		645D2E2124F3640500FF61AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645D2E2624F3640500FF61AD /* swiftui-cloud-firestore-crud-operationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-cloud-firestore-crud-operationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		645D2E2A24F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_cloud_firestore_crud_operationsUITests.swift; sourceTree = "<group>"; };
+		645D2E2C24F3640500FF61AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		645D2E0224F3640100FF61AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645D2E1824F3640400FF61AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645D2E2324F3640500FF61AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		645D2DFC24F3640100FF61AD = {
+			isa = PBXGroup;
+			children = (
+				645D2E0724F3640100FF61AD /* swiftui-cloud-firestore-crud-operations */,
+				645D2E1E24F3640500FF61AD /* swiftui-cloud-firestore-crud-operationsTests */,
+				645D2E2924F3640500FF61AD /* swiftui-cloud-firestore-crud-operationsUITests */,
+				645D2E0624F3640100FF61AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		645D2E0624F3640100FF61AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				645D2E0524F3640100FF61AD /* swiftui-cloud-firestore-crud-operations.app */,
+				645D2E1B24F3640400FF61AD /* swiftui-cloud-firestore-crud-operationsTests.xctest */,
+				645D2E2624F3640500FF61AD /* swiftui-cloud-firestore-crud-operationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		645D2E0724F3640100FF61AD /* swiftui-cloud-firestore-crud-operations */ = {
+			isa = PBXGroup;
+			children = (
+				645D2E0824F3640100FF61AD /* AppDelegate.swift */,
+				645D2E0A24F3640100FF61AD /* SceneDelegate.swift */,
+				645D2E0C24F3640100FF61AD /* ContentView.swift */,
+				645D2E0E24F3640400FF61AD /* Assets.xcassets */,
+				645D2E1324F3640400FF61AD /* LaunchScreen.storyboard */,
+				645D2E1624F3640400FF61AD /* Info.plist */,
+				645D2E1024F3640400FF61AD /* Preview Content */,
+			);
+			path = "swiftui-cloud-firestore-crud-operations";
+			sourceTree = "<group>";
+		};
+		645D2E1024F3640400FF61AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				645D2E1124F3640400FF61AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		645D2E1E24F3640500FF61AD /* swiftui-cloud-firestore-crud-operationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				645D2E1F24F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsTests.swift */,
+				645D2E2124F3640500FF61AD /* Info.plist */,
+			);
+			path = "swiftui-cloud-firestore-crud-operationsTests";
+			sourceTree = "<group>";
+		};
+		645D2E2924F3640500FF61AD /* swiftui-cloud-firestore-crud-operationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				645D2E2A24F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsUITests.swift */,
+				645D2E2C24F3640500FF61AD /* Info.plist */,
+			);
+			path = "swiftui-cloud-firestore-crud-operationsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		645D2E0424F3640100FF61AD /* swiftui-cloud-firestore-crud-operations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645D2E2F24F3640500FF61AD /* Build configuration list for PBXNativeTarget "swiftui-cloud-firestore-crud-operations" */;
+			buildPhases = (
+				645D2E0124F3640100FF61AD /* Sources */,
+				645D2E0224F3640100FF61AD /* Frameworks */,
+				645D2E0324F3640100FF61AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui-cloud-firestore-crud-operations";
+			productName = "swiftui-cloud-firestore-crud-operations";
+			productReference = 645D2E0524F3640100FF61AD /* swiftui-cloud-firestore-crud-operations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		645D2E1A24F3640400FF61AD /* swiftui-cloud-firestore-crud-operationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645D2E3224F3640500FF61AD /* Build configuration list for PBXNativeTarget "swiftui-cloud-firestore-crud-operationsTests" */;
+			buildPhases = (
+				645D2E1724F3640400FF61AD /* Sources */,
+				645D2E1824F3640400FF61AD /* Frameworks */,
+				645D2E1924F3640400FF61AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				645D2E1D24F3640400FF61AD /* PBXTargetDependency */,
+			);
+			name = "swiftui-cloud-firestore-crud-operationsTests";
+			productName = "swiftui-cloud-firestore-crud-operationsTests";
+			productReference = 645D2E1B24F3640400FF61AD /* swiftui-cloud-firestore-crud-operationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		645D2E2524F3640500FF61AD /* swiftui-cloud-firestore-crud-operationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645D2E3524F3640500FF61AD /* Build configuration list for PBXNativeTarget "swiftui-cloud-firestore-crud-operationsUITests" */;
+			buildPhases = (
+				645D2E2224F3640500FF61AD /* Sources */,
+				645D2E2324F3640500FF61AD /* Frameworks */,
+				645D2E2424F3640500FF61AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				645D2E2824F3640500FF61AD /* PBXTargetDependency */,
+			);
+			name = "swiftui-cloud-firestore-crud-operationsUITests";
+			productName = "swiftui-cloud-firestore-crud-operationsUITests";
+			productReference = 645D2E2624F3640500FF61AD /* swiftui-cloud-firestore-crud-operationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		645D2DFD24F3640100FF61AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Huy D.";
+				TargetAttributes = {
+					645D2E0424F3640100FF61AD = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					645D2E1A24F3640400FF61AD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 645D2E0424F3640100FF61AD;
+					};
+					645D2E2524F3640500FF61AD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 645D2E0424F3640100FF61AD;
+					};
+				};
+			};
+			buildConfigurationList = 645D2E0024F3640100FF61AD /* Build configuration list for PBXProject "swiftui-cloud-firestore-crud-operations" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 645D2DFC24F3640100FF61AD;
+			productRefGroup = 645D2E0624F3640100FF61AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				645D2E0424F3640100FF61AD /* swiftui-cloud-firestore-crud-operations */,
+				645D2E1A24F3640400FF61AD /* swiftui-cloud-firestore-crud-operationsTests */,
+				645D2E2524F3640500FF61AD /* swiftui-cloud-firestore-crud-operationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		645D2E0324F3640100FF61AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645D2E1524F3640400FF61AD /* LaunchScreen.storyboard in Resources */,
+				645D2E1224F3640400FF61AD /* Preview Assets.xcassets in Resources */,
+				645D2E0F24F3640400FF61AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645D2E1924F3640400FF61AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645D2E2424F3640500FF61AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		645D2E0124F3640100FF61AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645D2E0924F3640100FF61AD /* AppDelegate.swift in Sources */,
+				645D2E0B24F3640100FF61AD /* SceneDelegate.swift in Sources */,
+				645D2E0D24F3640100FF61AD /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645D2E1724F3640400FF61AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645D2E2024F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645D2E2224F3640500FF61AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645D2E2B24F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		645D2E1D24F3640400FF61AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 645D2E0424F3640100FF61AD /* swiftui-cloud-firestore-crud-operations */;
+			targetProxy = 645D2E1C24F3640400FF61AD /* PBXContainerItemProxy */;
+		};
+		645D2E2824F3640500FF61AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 645D2E0424F3640100FF61AD /* swiftui-cloud-firestore-crud-operations */;
+			targetProxy = 645D2E2724F3640500FF61AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		645D2E1324F3640400FF61AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				645D2E1424F3640400FF61AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		645D2E2D24F3640500FF61AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		645D2E2E24F3640500FF61AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		645D2E3024F3640500FF61AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-cloud-firestore-crud-operations/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "swiftui-cloud-firestore-crud-operations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-cloud-firestore-crud-operations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		645D2E3124F3640500FF61AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-cloud-firestore-crud-operations/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "swiftui-cloud-firestore-crud-operations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-cloud-firestore-crud-operations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		645D2E3324F3640500FF61AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				INFOPLIST_FILE = "swiftui-cloud-firestore-crud-operationsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-cloud-firestore-crud-operationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftui-cloud-firestore-crud-operations.app/swiftui-cloud-firestore-crud-operations";
+			};
+			name = Debug;
+		};
+		645D2E3424F3640500FF61AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				INFOPLIST_FILE = "swiftui-cloud-firestore-crud-operationsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-cloud-firestore-crud-operationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftui-cloud-firestore-crud-operations.app/swiftui-cloud-firestore-crud-operations";
+			};
+			name = Release;
+		};
+		645D2E3624F3640500FF61AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				INFOPLIST_FILE = "swiftui-cloud-firestore-crud-operationsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-cloud-firestore-crud-operationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swiftui-cloud-firestore-crud-operations";
+			};
+			name = Debug;
+		};
+		645D2E3724F3640500FF61AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				INFOPLIST_FILE = "swiftui-cloud-firestore-crud-operationsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-cloud-firestore-crud-operationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swiftui-cloud-firestore-crud-operations";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		645D2E0024F3640100FF61AD /* Build configuration list for PBXProject "swiftui-cloud-firestore-crud-operations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645D2E2D24F3640500FF61AD /* Debug */,
+				645D2E2E24F3640500FF61AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645D2E2F24F3640500FF61AD /* Build configuration list for PBXNativeTarget "swiftui-cloud-firestore-crud-operations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645D2E3024F3640500FF61AD /* Debug */,
+				645D2E3124F3640500FF61AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645D2E3224F3640500FF61AD /* Build configuration list for PBXNativeTarget "swiftui-cloud-firestore-crud-operationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645D2E3324F3640500FF61AD /* Debug */,
+				645D2E3424F3640500FF61AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645D2E3524F3640500FF61AD /* Build configuration list for PBXNativeTarget "swiftui-cloud-firestore-crud-operationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645D2E3624F3640500FF61AD /* Debug */,
+				645D2E3724F3640500FF61AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 645D2DFD24F3640100FF61AD /* Project object */;
+}
