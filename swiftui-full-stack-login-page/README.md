@@ -14,8 +14,8 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 11.6.
--  Image Picker
--  Multiline TextField.
+- Image Picker.
+- Multiline TextField.
 - Keyboard Management.
 
 ### Find me on:
