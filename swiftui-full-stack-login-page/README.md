@@ -14,9 +14,9 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 11.6.
-- MVVM Design Pattern.
-- JSON Decoder.
-- UIActivityIndicatorView.
+-  Image Picker
+-  Multiline TextField.
+- Keyboard Management.
 
 ### Find me on:
 
