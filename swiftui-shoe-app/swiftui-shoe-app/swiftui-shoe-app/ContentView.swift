@@ -191,7 +191,7 @@ struct MainVew: View {
                 }
                 .padding(.top)
                 .padding(.horizontal, 25)
-                .padding(.bottom, 25)
+                .padding(.bottom, 80)
                 .background(Color.white)
             }
             if show {

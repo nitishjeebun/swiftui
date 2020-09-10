@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'swiftui-cloud-firestore-crud-operations' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for swiftui-cloud-firestore-crud-operations
+  pod 'Firebase/Firestore'
+  pod 'FirebaseFirestoreSwift'
+
+  target 'swiftui-cloud-firestore-crud-operationsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'swiftui-cloud-firestore-crud-operationsUITests' do
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_swiftui_cloud_firestore_crud_operations_swiftui_cloud_firestore_crud_operationsUITests : NSObject
+@end
+@implementation PodsDummy_Pods_swiftui_cloud_firestore_crud_operations_swiftui_cloud_firestore_crud_operationsUITests
+@end

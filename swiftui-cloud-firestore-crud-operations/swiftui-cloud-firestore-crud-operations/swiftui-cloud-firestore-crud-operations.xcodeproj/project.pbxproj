@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,14 @@
 		645D2E1524F3640400FF61AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645D2E1324F3640400FF61AD /* LaunchScreen.storyboard */; };
 		645D2E2024F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D2E1F24F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsTests.swift */; };
 		645D2E2B24F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D2E2A24F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsUITests.swift */; };
+		6463D732250A745A00F325C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6463D731250A745A00F325C6 /* GoogleService-Info.plist */; };
+		6463D737250A765C00F325C6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463D736250A765C00F325C6 /* Home.swift */; };
+		6463D739250A7AAF00F325C6 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463D738250A7AAF00F325C6 /* Message.swift */; };
+		6463D73B250A812000F325C6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463D73A250A812000F325C6 /* HomeViewModel.swift */; };
+		6463D73D250A91C600F325C6 /* UpdateMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463D73C250A91C600F325C6 /* UpdateMessage.swift */; };
+		8B6A0F34AC06F70FF0B5E570 /* Pods_swiftui_cloud_firestore_crud_operations_swiftui_cloud_firestore_crud_operationsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AABD94855A45D12BD5FB58 /* Pods_swiftui_cloud_firestore_crud_operations_swiftui_cloud_firestore_crud_operationsUITests.framework */; };
+		D6ED1F4B8811CAC6BD439731 /* Pods_swiftui_cloud_firestore_crud_operationsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B99ED8AA8B1F53F028E0F2 /* Pods_swiftui_cloud_firestore_crud_operationsTests.framework */; };
+		E5E558F42D29AD050E185C15 /* Pods_swiftui_cloud_firestore_crud_operations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533F52B0214772709009E5F9 /* Pods_swiftui_cloud_firestore_crud_operations.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05134833E1C050FAAFF224A0 /* Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests.debug.xcconfig"; path = "Target Support Files/Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests/Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B448EF6AD724511308B5913 /* Pods-swiftui-cloud-firestore-crud-operations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-cloud-firestore-crud-operations.debug.xcconfig"; path = "Target Support Files/Pods-swiftui-cloud-firestore-crud-operations/Pods-swiftui-cloud-firestore-crud-operations.debug.xcconfig"; sourceTree = "<group>"; };
+		29AABD94855A45D12BD5FB58 /* Pods_swiftui_cloud_firestore_crud_operations_swiftui_cloud_firestore_crud_operationsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftui_cloud_firestore_crud_operations_swiftui_cloud_firestore_crud_operationsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBDA58BDAC152540975C178 /* Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests.release.xcconfig"; path = "Target Support Files/Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests/Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		533F52B0214772709009E5F9 /* Pods_swiftui_cloud_firestore_crud_operations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftui_cloud_firestore_crud_operations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E161D36514D282589BF127 /* Pods-swiftui-cloud-firestore-crud-operationsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-cloud-firestore-crud-operationsTests.debug.xcconfig"; path = "Target Support Files/Pods-swiftui-cloud-firestore-crud-operationsTests/Pods-swiftui-cloud-firestore-crud-operationsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		645D2E0524F3640100FF61AD /* swiftui-cloud-firestore-crud-operations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-cloud-firestore-crud-operations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		645D2E0824F3640100FF61AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		645D2E0A24F3640100FF61AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,14 @@
 		645D2E2624F3640500FF61AD /* swiftui-cloud-firestore-crud-operationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-cloud-firestore-crud-operationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		645D2E2A24F3640500FF61AD /* swiftui_cloud_firestore_crud_operationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_cloud_firestore_crud_operationsUITests.swift; sourceTree = "<group>"; };
 		645D2E2C24F3640500FF61AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6463D731250A745A00F325C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6463D736250A765C00F325C6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		6463D738250A7AAF00F325C6 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6463D73A250A812000F325C6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6463D73C250A91C600F325C6 /* UpdateMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateMessage.swift; sourceTree = "<group>"; };
+		952EC1BB95AD07E45784E863 /* Pods-swiftui-cloud-firestore-crud-operations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-cloud-firestore-crud-operations.release.xcconfig"; path = "Target Support Files/Pods-swiftui-cloud-firestore-crud-operations/Pods-swiftui-cloud-firestore-crud-operations.release.xcconfig"; sourceTree = "<group>"; };
+		C1B99ED8AA8B1F53F028E0F2 /* Pods_swiftui_cloud_firestore_crud_operationsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftui_cloud_firestore_crud_operationsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1157C7FE51EEDCD9A1C79D0 /* Pods-swiftui-cloud-firestore-crud-operationsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-cloud-firestore-crud-operationsTests.release.xcconfig"; path = "Target Support Files/Pods-swiftui-cloud-firestore-crud-operationsTests/Pods-swiftui-cloud-firestore-crud-operationsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E558F42D29AD050E185C15 /* Pods_swiftui_cloud_firestore_crud_operations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6ED1F4B8811CAC6BD439731 /* Pods_swiftui_cloud_firestore_crud_operationsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6A0F34AC06F70FF0B5E570 /* Pods_swiftui_cloud_firestore_crud_operations_swiftui_cloud_firestore_crud_operationsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F0FE0E7525104676ED757EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B448EF6AD724511308B5913 /* Pods-swiftui-cloud-firestore-crud-operations.debug.xcconfig */,
+				952EC1BB95AD07E45784E863 /* Pods-swiftui-cloud-firestore-crud-operations.release.xcconfig */,
+				05134833E1C050FAAFF224A0 /* Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests.debug.xcconfig */,
+				4DBDA58BDAC152540975C178 /* Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests.release.xcconfig */,
+				55E161D36514D282589BF127 /* Pods-swiftui-cloud-firestore-crud-operationsTests.debug.xcconfig */,
+				D1157C7FE51EEDCD9A1C79D0 /* Pods-swiftui-cloud-firestore-crud-operationsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		645D2DFC24F3640100FF61AD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				645D2E1E24F3640500FF61AD /* swiftui-cloud-firestore-crud-operationsTests */,
 				645D2E2924F3640500FF61AD /* swiftui-cloud-firestore-crud-operationsUITests */,
 				645D2E0624F3640100FF61AD /* Products */,
+				5F0FE0E7525104676ED757EF /* Pods */,
+				B2ADCCB39C2E6D9B828D76BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +139,13 @@
 		645D2E0724F3640100FF61AD /* swiftui-cloud-firestore-crud-operations */ = {
 			isa = PBXGroup;
 			children = (
+				6463D735250A764B00F325C6 /* ViewModel */,
+				6463D734250A764000F325C6 /* Model */,
+				6463D733250A762600F325C6 /* View */,
 				645D2E0824F3640100FF61AD /* AppDelegate.swift */,
 				645D2E0A24F3640100FF61AD /* SceneDelegate.swift */,
 				645D2E0C24F3640100FF61AD /* ContentView.swift */,
+				6463D731250A745A00F325C6 /* GoogleService-Info.plist */,
 				645D2E0E24F3640400FF61AD /* Assets.xcassets */,
 				645D2E1324F3640400FF61AD /* LaunchScreen.storyboard */,
 				645D2E1624F3640400FF61AD /* Info.plist */,
@@ -136,6 +180,41 @@
 			path = "swiftui-cloud-firestore-crud-operationsUITests";
 			sourceTree = "<group>";
 		};
+		6463D733250A762600F325C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6463D736250A765C00F325C6 /* Home.swift */,
+				6463D73C250A91C600F325C6 /* UpdateMessage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6463D734250A764000F325C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6463D738250A7AAF00F325C6 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6463D735250A764B00F325C6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6463D73A250A812000F325C6 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B2ADCCB39C2E6D9B828D76BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				533F52B0214772709009E5F9 /* Pods_swiftui_cloud_firestore_crud_operations.framework */,
+				29AABD94855A45D12BD5FB58 /* Pods_swiftui_cloud_firestore_crud_operations_swiftui_cloud_firestore_crud_operationsUITests.framework */,
+				C1B99ED8AA8B1F53F028E0F2 /* Pods_swiftui_cloud_firestore_crud_operationsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 645D2E2F24F3640500FF61AD /* Build configuration list for PBXNativeTarget "swiftui-cloud-firestore-crud-operations" */;
 			buildPhases = (
+				A8F2C5BC57A14583D9575F1A /* [CP] Check Pods Manifest.lock */,
 				645D2E0124F3640100FF61AD /* Sources */,
 				645D2E0224F3640100FF61AD /* Frameworks */,
 				645D2E0324F3640100FF61AD /* Resources */,
+				34927028B125471B59D95A40 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 645D2E3224F3640500FF61AD /* Build configuration list for PBXNativeTarget "swiftui-cloud-firestore-crud-operationsTests" */;
 			buildPhases = (
+				5B3B19CE90E6888EC331B0C2 /* [CP] Check Pods Manifest.lock */,
 				645D2E1724F3640400FF61AD /* Sources */,
 				645D2E1824F3640400FF61AD /* Frameworks */,
 				645D2E1924F3640400FF61AD /* Resources */,
@@ -178,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 645D2E3524F3640500FF61AD /* Build configuration list for PBXNativeTarget "swiftui-cloud-firestore-crud-operationsUITests" */;
 			buildPhases = (
+				A1C5F347D213E9AC0CCD2FAF /* [CP] Check Pods Manifest.lock */,
 				645D2E2224F3640500FF61AD /* Sources */,
 				645D2E2324F3640500FF61AD /* Frameworks */,
 				645D2E2424F3640500FF61AD /* Resources */,
+				A66D29C544664C2D005E50FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				645D2E1524F3640400FF61AD /* LaunchScreen.storyboard in Resources */,
+				6463D732250A745A00F325C6 /* GoogleService-Info.plist in Resources */,
 				645D2E1224F3640400FF61AD /* Preview Assets.xcassets in Resources */,
 				645D2E0F24F3640400FF61AD /* Assets.xcassets in Resources */,
 			);
@@ -262,13 +347,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34927028B125471B59D95A40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftui-cloud-firestore-crud-operations/Pods-swiftui-cloud-firestore-crud-operations-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftui-cloud-firestore-crud-operations/Pods-swiftui-cloud-firestore-crud-operations-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftui-cloud-firestore-crud-operations/Pods-swiftui-cloud-firestore-crud-operations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B3B19CE90E6888EC331B0C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftui-cloud-firestore-crud-operationsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1C5F347D213E9AC0CCD2FAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A66D29C544664C2D005E50FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests/Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests/Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests/Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F2C5BC57A14583D9575F1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftui-cloud-firestore-crud-operations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		645D2E0124F3640100FF61AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				645D2E0924F3640100FF61AD /* AppDelegate.swift in Sources */,
+				6463D73B250A812000F325C6 /* HomeViewModel.swift in Sources */,
 				645D2E0B24F3640100FF61AD /* SceneDelegate.swift in Sources */,
+				6463D739250A7AAF00F325C6 /* Message.swift in Sources */,
+				6463D73D250A91C600F325C6 /* UpdateMessage.swift in Sources */,
+				6463D737250A765C00F325C6 /* Home.swift in Sources */,
 				645D2E0D24F3640100FF61AD /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +624,7 @@
 		};
 		645D2E3024F3640500FF61AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B448EF6AD724511308B5913 /* Pods-swiftui-cloud-firestore-crud-operations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +645,7 @@
 		};
 		645D2E3124F3640500FF61AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 952EC1BB95AD07E45784E863 /* Pods-swiftui-cloud-firestore-crud-operations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +666,7 @@
 		};
 		645D2E3324F3640500FF61AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E161D36514D282589BF127 /* Pods-swiftui-cloud-firestore-crud-operationsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +689,7 @@
 		};
 		645D2E3424F3640500FF61AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1157C7FE51EEDCD9A1C79D0 /* Pods-swiftui-cloud-firestore-crud-operationsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +712,7 @@
 		};
 		645D2E3624F3640500FF61AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05134833E1C050FAAFF224A0 /* Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +733,7 @@
 		};
 		645D2E3724F3640500FF61AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DBDA58BDAC152540975C178 /* Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

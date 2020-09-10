@@ -57,6 +57,10 @@ struct ImagePicker: UIViewControllerRepresentable {
     @Binding var images: [UIImage]
     @Binding var picker: Bool
     
+    func makeCoordinator() -> Coordinator {
+        return ImagePicker.Coordinator(parent: self)
+    }
+    
     func makeUIViewController(context: Context) -> PHPickerViewController {
         var config = PHPickerConfiguration()
         config.filter = .images
@@ -66,11 +70,10 @@ struct ImagePicker: UIViewControllerRepresentable {
         return picker
     }
     
-    func updateUIViewController(_ uiViewController: PHPickerViewController, context: Context) {
-        
-    }
+    func updateUIViewController(_ uiViewController: PHPickerViewController, context: Context) { }
     
     class Coordinator: NSObject, PHPickerViewControllerDelegate {
+        
         var parent: ImagePicker
         
         init(parent: ImagePicker) {
@@ -98,11 +101,6 @@ struct ImagePicker: UIViewControllerRepresentable {
             }
         }
     }
-    
-    func makeCoordinator() -> Coordinator {
-        return ImagePicker.Coordinator(parent: self)
-    }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {

@@ -1,0 +1,6 @@
+framework module Pods_swiftui_cloud_firestore_crud_operations_swiftui_cloud_firestore_crud_operationsUITests {
+  umbrella header "Pods-swiftui-cloud-firestore-crud-operations-swiftui-cloud-firestore-crud-operationsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
