@@ -14,9 +14,9 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 11.6.
-- 
-- 
-- 
+- Firebase, FirebaseFirestoreSwift
+- DocumentID, CodingKeys
+- MVVM, ObservedObject, State, Binding
 
 ### Find me on:
 
