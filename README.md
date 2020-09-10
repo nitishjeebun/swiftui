@@ -30,7 +30,7 @@
 - Dashboard - Grids, Tab View with Swipe Gestures
 - Scroll Reader - Image Picker, Chat UI 
 - Carousel List - Custom Grids and Animations 
-- Furniture App
+- [Furniture App](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-furniture-app)
 - [Cloud Firestore CRUD Operations](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-cloud-firestore-crud-operations)
 - [Full Stack Login Page](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-full-stack-login-page)
 - [SwiftUI MVVM Design Pattern](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-mvvm-design-pattern)
