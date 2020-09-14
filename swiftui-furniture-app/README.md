@@ -13,10 +13,10 @@
 
 ### Features
 
-- SwiftUI 2.0 & Xcode 11.6.
-- 
-- 
-- 
+- SwiftUI 2.0 & Xcode 11.7.
+- Custom TabView.
+- Dark Mode Toggle.
+- HStack, VStack, ZStack.
 
 ### Find me on:
 

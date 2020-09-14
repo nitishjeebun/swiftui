@@ -15,6 +15,12 @@
 		6463D757250A9FAC00F325C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6463D755250A9FAC00F325C6 /* LaunchScreen.storyboard */; };
 		6463D762250A9FAC00F325C6 /* swiftui_furniture_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463D761250A9FAC00F325C6 /* swiftui_furniture_appTests.swift */; };
 		6463D76D250A9FAD00F325C6 /* swiftui_furniture_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463D76C250A9FAD00F325C6 /* swiftui_furniture_appUITests.swift */; };
+		64C748C525101FDD0004974F /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C748C425101FDD0004974F /* TabView.swift */; };
+		64C748C72510254A0004974F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C748C62510254A0004974F /* HomeView.swift */; };
+		64C748C925102C430004974F /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C748C825102C430004974F /* Furniture.swift */; };
+		64C748CB25102FF80004974F /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C748CA25102FF80004974F /* Cart.swift */; };
+		64C748CD251030040004974F /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C748CC251030040004974F /* Search.swift */; };
+		64C748CF251030730004974F /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C748CE251030730004974F /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		6463D768250A9FAD00F325C6 /* swiftui-furniture-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-furniture-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6463D76C250A9FAD00F325C6 /* swiftui_furniture_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_furniture_appUITests.swift; sourceTree = "<group>"; };
 		6463D76E250A9FAD00F325C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C748C425101FDD0004974F /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		64C748C62510254A0004974F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		64C748C825102C430004974F /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
+		64C748CA25102FF80004974F /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		64C748CC251030040004974F /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		64C748CE251030730004974F /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,12 @@
 				6463D74A250A9FA900F325C6 /* AppDelegate.swift */,
 				6463D74C250A9FA900F325C6 /* SceneDelegate.swift */,
 				6463D74E250A9FA900F325C6 /* ContentView.swift */,
+				64C748C425101FDD0004974F /* TabView.swift */,
+				64C748C62510254A0004974F /* HomeView.swift */,
+				64C748C825102C430004974F /* Furniture.swift */,
+				64C748CA25102FF80004974F /* Cart.swift */,
+				64C748CC251030040004974F /* Search.swift */,
+				64C748CE251030730004974F /* Account.swift */,
 				6463D750250A9FAC00F325C6 /* Assets.xcassets */,
 				6463D755250A9FAC00F325C6 /* LaunchScreen.storyboard */,
 				6463D758250A9FAC00F325C6 /* Info.plist */,
@@ -269,6 +287,12 @@
 			files = (
 				6463D74B250A9FA900F325C6 /* AppDelegate.swift in Sources */,
 				6463D74D250A9FA900F325C6 /* SceneDelegate.swift in Sources */,
+				64C748C72510254A0004974F /* HomeView.swift in Sources */,
+				64C748CB25102FF80004974F /* Cart.swift in Sources */,
+				64C748C525101FDD0004974F /* TabView.swift in Sources */,
+				64C748CF251030730004974F /* Account.swift in Sources */,
+				64C748CD251030040004974F /* Search.swift in Sources */,
+				64C748C925102C430004974F /* Furniture.swift in Sources */,
 				6463D74F250A9FA900F325C6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
