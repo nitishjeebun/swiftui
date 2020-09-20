@@ -13,6 +13,8 @@
 		64A2D32A2516FED8001E64A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A2D3292516FED8001E64A6 /* Preview Assets.xcassets */; };
 		64A2D3352516FED8001E64A6 /* swiftui_carousel_listTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A2D3342516FED8001E64A6 /* swiftui_carousel_listTests.swift */; };
 		64A2D3402516FED8001E64A6 /* swiftui_carousel_listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A2D33F2516FED8001E64A6 /* swiftui_carousel_listUITests.swift */; };
+		64A2D3512516FF54001E64A6 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A2D3502516FF54001E64A6 /* Game.swift */; };
+		64A2D3562516FF9D001E64A6 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A2D3552516FF9D001E64A6 /* MockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		64A2D33B2516FED8001E64A6 /* swiftui-carousel-listUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-carousel-listUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A2D33F2516FED8001E64A6 /* swiftui_carousel_listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_carousel_listUITests.swift; sourceTree = "<group>"; };
 		64A2D3412516FED8001E64A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A2D3502516FF54001E64A6 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		64A2D3552516FF9D001E64A6 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				64A2D3222516FED6001E64A6 /* swiftui_carousel_listApp.swift */,
 				64A2D3242516FED6001E64A6 /* ContentView.swift */,
+				64A2D3502516FF54001E64A6 /* Game.swift */,
+				64A2D3552516FF9D001E64A6 /* MockData.swift */,
 				64A2D3262516FED8001E64A6 /* Assets.xcassets */,
 				64A2D32B2516FED8001E64A6 /* Info.plist */,
 				64A2D3282516FED8001E64A6 /* Preview Content */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				64A2D3252516FED6001E64A6 /* ContentView.swift in Sources */,
+				64A2D3562516FF9D001E64A6 /* MockData.swift in Sources */,
+				64A2D3512516FF54001E64A6 /* Game.swift in Sources */,
 				64A2D3232516FED6001E64A6 /* swiftui_carousel_listApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
