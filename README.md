@@ -29,7 +29,7 @@
 - Dating UI - Depth Stacks, Gestures
 - Dashboard - Grids, Tab View with Swipe Gestures
 - Scroll Reader - Image Picker, Chat UI 
-- Carousel List - Custom Grids and Animations 
+- [Carousel List - Custom Grids and Animations](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-carousel-list)
 - [Furniture App](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-furniture-app)
 - [Cloud Firestore CRUD Operations](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-cloud-firestore-crud-operations)
 - [Full Stack Login Page](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-full-stack-login-page)
@@ -38,8 +38,7 @@
 
 ### Find me on:
 
-- [GitHub](https://github.com/duonghominhhuy)
-- [Twitter](https://twitter.com/duonghominhhuy)
+- [GitHub](https://github.com/duonghominhhuy) and [Twitter](https://twitter.com/duonghominhhuy)
 - Find more Practical topics on [Practical List](https://github.com/duonghominhhuy/practical-list)
 
 
