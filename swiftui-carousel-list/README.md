@@ -14,6 +14,8 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 12.0.
+- Custom Grid, Carousel List.
+- LazyVGrid, LazyVStack, GridItem.
 
 ### Find me on:
 
