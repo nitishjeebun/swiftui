@@ -66,7 +66,14 @@ struct ContentView: View {
                             .foregroundColor(.black)
                     })
                 }
-                .padding()
+                .padding(.horizontal)
+                .padding(.top, 25)
+                LazyVGrid(columns: self.columns, spacing: 25) {
+                    ForEach(mockData) { data in
+                        GridView(game: data, colums: self.$columns)
+                    }
+                }
+                .padding([.horizontal, .top])
             }
             .padding(.vertical)
         }

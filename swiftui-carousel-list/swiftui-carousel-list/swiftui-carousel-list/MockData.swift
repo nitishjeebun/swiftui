@@ -7,7 +7,7 @@
 
 import Foundation
 
-var mockData = [
+var mockData: [Game] = [
     Game(id: 0, name: "Resident Evil 3", image: "g2", rating: 3),
     Game(id: 1, name: "GTA 5", image: "g3", rating: 5),
     Game(id: 2, name: "Assaisan Creed Odesey", image: "g4", rating: 3),
