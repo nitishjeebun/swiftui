@@ -28,7 +28,7 @@
 - Firebase Connection - No App Delegate Solution 
 - Dating UI - Depth Stacks, Gestures
 - Dashboard - Grids, Tab View with Swipe Gestures
-- Scroll Reader - Image Picker, Chat UI 
+- [Scroll Reader - Image Picker, Chat UI](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-scroll-reader)
 - [Carousel List - Custom Grids and Animations](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-carousel-list)
 - [Furniture App](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-furniture-app)
 - [Cloud Firestore CRUD Operations](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-cloud-firestore-crud-operations)
