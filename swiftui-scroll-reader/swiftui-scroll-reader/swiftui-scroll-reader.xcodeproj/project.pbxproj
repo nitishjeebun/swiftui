@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64C5C72A251C562A0002D05D /* swiftui_scroll_readerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5C729251C562A0002D05D /* swiftui_scroll_readerApp.swift */; };
+		64C5C72C251C562A0002D05D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5C72B251C562A0002D05D /* ContentView.swift */; };
+		64C5C72E251C562D0002D05D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C5C72D251C562D0002D05D /* Assets.xcassets */; };
+		64C5C731251C562D0002D05D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C5C730251C562D0002D05D /* Preview Assets.xcassets */; };
+		64C5C73C251C562D0002D05D /* swiftui_scroll_readerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5C73B251C562D0002D05D /* swiftui_scroll_readerTests.swift */; };
+		64C5C747251C562D0002D05D /* swiftui_scroll_readerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5C746251C562D0002D05D /* swiftui_scroll_readerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64C5C738251C562D0002D05D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64C5C71E251C562A0002D05D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64C5C725251C562A0002D05D;
+			remoteInfo = "swiftui-scroll-reader";
+		};
+		64C5C743251C562D0002D05D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64C5C71E251C562A0002D05D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64C5C725251C562A0002D05D;
+			remoteInfo = "swiftui-scroll-reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64C5C726251C562A0002D05D /* swiftui-scroll-reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-scroll-reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C5C729251C562A0002D05D /* swiftui_scroll_readerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_scroll_readerApp.swift; sourceTree = "<group>"; };
+		64C5C72B251C562A0002D05D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64C5C72D251C562D0002D05D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64C5C730251C562D0002D05D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64C5C732251C562D0002D05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C5C737251C562D0002D05D /* swiftui-scroll-readerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-scroll-readerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C5C73B251C562D0002D05D /* swiftui_scroll_readerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_scroll_readerTests.swift; sourceTree = "<group>"; };
+		64C5C73D251C562D0002D05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C5C742251C562D0002D05D /* swiftui-scroll-readerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-scroll-readerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C5C746251C562D0002D05D /* swiftui_scroll_readerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_scroll_readerUITests.swift; sourceTree = "<group>"; };
+		64C5C748251C562D0002D05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64C5C723251C562A0002D05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C5C734251C562D0002D05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C5C73F251C562D0002D05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64C5C71D251C562A0002D05D = {
+			isa = PBXGroup;
+			children = (
+				64C5C728251C562A0002D05D /* swiftui-scroll-reader */,
+				64C5C73A251C562D0002D05D /* swiftui-scroll-readerTests */,
+				64C5C745251C562D0002D05D /* swiftui-scroll-readerUITests */,
+				64C5C727251C562A0002D05D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64C5C727251C562A0002D05D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64C5C726251C562A0002D05D /* swiftui-scroll-reader.app */,
+				64C5C737251C562D0002D05D /* swiftui-scroll-readerTests.xctest */,
+				64C5C742251C562D0002D05D /* swiftui-scroll-readerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64C5C728251C562A0002D05D /* swiftui-scroll-reader */ = {
+			isa = PBXGroup;
+			children = (
+				64C5C729251C562A0002D05D /* swiftui_scroll_readerApp.swift */,
+				64C5C72B251C562A0002D05D /* ContentView.swift */,
+				64C5C72D251C562D0002D05D /* Assets.xcassets */,
+				64C5C732251C562D0002D05D /* Info.plist */,
+				64C5C72F251C562D0002D05D /* Preview Content */,
+			);
+			path = "swiftui-scroll-reader";
+			sourceTree = "<group>";
+		};
+		64C5C72F251C562D0002D05D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64C5C730251C562D0002D05D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64C5C73A251C562D0002D05D /* swiftui-scroll-readerTests */ = {
+			isa = PBXGroup;
+			children = (
+				64C5C73B251C562D0002D05D /* swiftui_scroll_readerTests.swift */,
+				64C5C73D251C562D0002D05D /* Info.plist */,
+			);
+			path = "swiftui-scroll-readerTests";
+			sourceTree = "<group>";
+		};
+		64C5C745251C562D0002D05D /* swiftui-scroll-readerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64C5C746251C562D0002D05D /* swiftui_scroll_readerUITests.swift */,
+				64C5C748251C562D0002D05D /* Info.plist */,
+			);
+			path = "swiftui-scroll-readerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64C5C725251C562A0002D05D /* swiftui-scroll-reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C5C74B251C562D0002D05D /* Build configuration list for PBXNativeTarget "swiftui-scroll-reader" */;
+			buildPhases = (
+				64C5C722251C562A0002D05D /* Sources */,
+				64C5C723251C562A0002D05D /* Frameworks */,
+				64C5C724251C562A0002D05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui-scroll-reader";
+			productName = "swiftui-scroll-reader";
+			productReference = 64C5C726251C562A0002D05D /* swiftui-scroll-reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64C5C736251C562D0002D05D /* swiftui-scroll-readerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C5C74E251C562D0002D05D /* Build configuration list for PBXNativeTarget "swiftui-scroll-readerTests" */;
+			buildPhases = (
+				64C5C733251C562D0002D05D /* Sources */,
+				64C5C734251C562D0002D05D /* Frameworks */,
+				64C5C735251C562D0002D05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C5C739251C562D0002D05D /* PBXTargetDependency */,
+			);
+			name = "swiftui-scroll-readerTests";
+			productName = "swiftui-scroll-readerTests";
+			productReference = 64C5C737251C562D0002D05D /* swiftui-scroll-readerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64C5C741251C562D0002D05D /* swiftui-scroll-readerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C5C751251C562D0002D05D /* Build configuration list for PBXNativeTarget "swiftui-scroll-readerUITests" */;
+			buildPhases = (
+				64C5C73E251C562D0002D05D /* Sources */,
+				64C5C73F251C562D0002D05D /* Frameworks */,
+				64C5C740251C562D0002D05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C5C744251C562D0002D05D /* PBXTargetDependency */,
+			);
+			name = "swiftui-scroll-readerUITests";
+			productName = "swiftui-scroll-readerUITests";
+			productReference = 64C5C742251C562D0002D05D /* swiftui-scroll-readerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64C5C71E251C562A0002D05D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					64C5C725251C562A0002D05D = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					64C5C736251C562D0002D05D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 64C5C725251C562A0002D05D;
+					};
+					64C5C741251C562D0002D05D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 64C5C725251C562A0002D05D;
+					};
+				};
+			};
+			buildConfigurationList = 64C5C721251C562A0002D05D /* Build configuration list for PBXProject "swiftui-scroll-reader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64C5C71D251C562A0002D05D;
+			productRefGroup = 64C5C727251C562A0002D05D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64C5C725251C562A0002D05D /* swiftui-scroll-reader */,
+				64C5C736251C562D0002D05D /* swiftui-scroll-readerTests */,
+				64C5C741251C562D0002D05D /* swiftui-scroll-readerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64C5C724251C562A0002D05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C5C731251C562D0002D05D /* Preview Assets.xcassets in Resources */,
+				64C5C72E251C562D0002D05D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C5C735251C562D0002D05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C5C740251C562D0002D05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64C5C722251C562A0002D05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C5C72C251C562A0002D05D /* ContentView.swift in Sources */,
+				64C5C72A251C562A0002D05D /* swiftui_scroll_readerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C5C733251C562D0002D05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C5C73C251C562D0002D05D /* swiftui_scroll_readerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C5C73E251C562D0002D05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C5C747251C562D0002D05D /* swiftui_scroll_readerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64C5C739251C562D0002D05D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64C5C725251C562A0002D05D /* swiftui-scroll-reader */;
+			targetProxy = 64C5C738251C562D0002D05D /* PBXContainerItemProxy */;
+		};
+		64C5C744251C562D0002D05D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64C5C725251C562A0002D05D /* swiftui-scroll-reader */;
+			targetProxy = 64C5C743251C562D0002D05D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		64C5C749251C562D0002D05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64C5C74A251C562D0002D05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64C5C74C251C562D0002D05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-scroll-reader/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "swiftui-scroll-reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-scroll-reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64C5C74D251C562D0002D05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-scroll-reader/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "swiftui-scroll-reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-scroll-reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64C5C74F251C562D0002D05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				INFOPLIST_FILE = "swiftui-scroll-readerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-scroll-readerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftui-scroll-reader.app/swiftui-scroll-reader";
+			};
+			name = Debug;
+		};
+		64C5C750251C562D0002D05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				INFOPLIST_FILE = "swiftui-scroll-readerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-scroll-readerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftui-scroll-reader.app/swiftui-scroll-reader";
+			};
+			name = Release;
+		};
+		64C5C752251C562D0002D05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				INFOPLIST_FILE = "swiftui-scroll-readerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-scroll-readerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swiftui-scroll-reader";
+			};
+			name = Debug;
+		};
+		64C5C753251C562D0002D05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFB5ZUUVF;
+				INFOPLIST_FILE = "swiftui-scroll-readerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.duonghominhhuy.swiftui-scroll-readerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swiftui-scroll-reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64C5C721251C562A0002D05D /* Build configuration list for PBXProject "swiftui-scroll-reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C5C749251C562D0002D05D /* Debug */,
+				64C5C74A251C562D0002D05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C5C74B251C562D0002D05D /* Build configuration list for PBXNativeTarget "swiftui-scroll-reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C5C74C251C562D0002D05D /* Debug */,
+				64C5C74D251C562D0002D05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C5C74E251C562D0002D05D /* Build configuration list for PBXNativeTarget "swiftui-scroll-readerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C5C74F251C562D0002D05D /* Debug */,
+				64C5C750251C562D0002D05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C5C751251C562D0002D05D /* Build configuration list for PBXNativeTarget "swiftui-scroll-readerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C5C752251C562D0002D05D /* Debug */,
+				64C5C753251C562D0002D05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64C5C71E251C562A0002D05D /* Project object */;
+}
