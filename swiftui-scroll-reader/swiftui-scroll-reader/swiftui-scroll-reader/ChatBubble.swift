@@ -36,6 +36,7 @@ struct ChatBubble: View {
                 Spacer(minLength: 25)
             }
         }
+        .id(message.id)
     }
     
 }

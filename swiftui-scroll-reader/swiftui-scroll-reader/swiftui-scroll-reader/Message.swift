@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Message: Identifiable {
+struct Message: Identifiable, Equatable {
     var id: Date
     var message: String
     var isMyMessage: Bool
@@ -27,11 +27,12 @@ class Messages: ObservableObject {
                        "Ohhhhh",
                        "What About Your Country ???",
                        "Very Very Bad...",
-                       "Ok Be Safe","Bye....",
+                       "Ok Be Safe",
+                       "Bye....",
                        "Ok...."]
-        for i in 0..<strings.count {
+        for (i, v) in strings.enumerated() {
             let newMessage = Message(id: Date(),
-                                     message: strings[i],
+                                     message: v,
                                      isMyMessage: i % 2 == 0,
                                      profilePic: i % 2 == 0 ? "p1" : "p2")
             messages.append(newMessage)

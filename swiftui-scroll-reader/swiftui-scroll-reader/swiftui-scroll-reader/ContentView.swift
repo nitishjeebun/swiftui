@@ -15,7 +15,7 @@ struct ContentView: View {
 
 struct Home: View {
     
-    @State var message: String = ""
+    @State var inputText: String = ""
     @StateObject var allMessages = Messages()
     
     var body: some View {
@@ -54,6 +54,11 @@ struct Home: View {
                             ForEach(allMessages.messages) { msg in
                                 ChatBubble(message: msg)
                             }
+                            .onChange(of: allMessages.messages) { (value) in
+                                if value.last?.isMyMessage == true {
+                                    reader.scrollTo(value.last?.id)
+                                }
+                            }
                         }
                         .padding([.horizontal, .bottom])
                         .padding(.top, 25)
@@ -61,7 +66,7 @@ struct Home: View {
                 }
                 HStack(spacing: 15) {
                     HStack(spacing: 15) {
-                        TextField("Message", text: self.$message)
+                        TextField("Message", text: self.$inputText)
                         Button(action: {
                             
                         }, label: {
@@ -74,11 +79,13 @@ struct Home: View {
                     .padding(.horizontal)
                     .background(Color.black.opacity(0.06))
                     .clipShape(Capsule())
-                    if message != "" {
+                    if inputText != "" {
                         Button(action: {
-                            let newMessage = Message(id: Date(), message: message, isMyMessage: true, profilePic: "p1", photo: nil)
-                            allMessages.messages.append(newMessage)
-                            self.message = ""
+                            withAnimation(.easeIn) {
+                                let newMessage = Message(id: Date(), message: inputText, isMyMessage: true, profilePic: "p1", photo: nil)
+                                allMessages.messages.append(newMessage)
+                            }
+                            self.inputText = ""
                         }, label: {
                             Image(systemName: "paperplane.fill")
                                 .font(.system(size: 22))
@@ -96,8 +103,7 @@ struct Home: View {
                 .animation(.easeOut)
             }
             .padding(.bottom, UIApplication.shared.windows.first?.safeAreaInsets.bottom)
-            .background(Color.white)
-            .clipShape(RoundedShape())
+            .background(Color.white.clipShape(RoundedShape()))
         }
         .edgesIgnoringSafeArea(.bottom)
         .background(Color("Color").edgesIgnoringSafeArea(.top))
