@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64300020252575FF00E73D55 /* BubbleArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6430001F252575FF00E73D55 /* BubbleArrow.swift */; };
 		64BC41BD2522202900708BFE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC41BC2522202900708BFE /* Message.swift */; };
 		64BC41C22522254000708BFE /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC41C12522254000708BFE /* ChatBubble.swift */; };
 		64BC41CA2522359A00708BFE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC41C92522359A00708BFE /* ImagePicker.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6430001F252575FF00E73D55 /* BubbleArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleArrow.swift; sourceTree = "<group>"; };
 		64BC41BC2522202900708BFE /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		64BC41C12522254000708BFE /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
 		64BC41C92522359A00708BFE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				64BC41BC2522202900708BFE /* Message.swift */,
 				64C5C72B251C562A0002D05D /* ContentView.swift */,
 				64BC41C12522254000708BFE /* ChatBubble.swift */,
+				6430001F252575FF00E73D55 /* BubbleArrow.swift */,
 				64BC41C92522359A00708BFE /* ImagePicker.swift */,
 				64C5C72D251C562D0002D05D /* Assets.xcassets */,
 				64C5C732251C562D0002D05D /* Info.plist */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64BC41BD2522202900708BFE /* Message.swift in Sources */,
+				64300020252575FF00E73D55 /* BubbleArrow.swift in Sources */,
 				64C5C72C251C562A0002D05D /* ContentView.swift in Sources */,
 				64BC41CA2522359A00708BFE /* ImagePicker.swift in Sources */,
 				64C5C72A251C562A0002D05D /* swiftui_scroll_readerApp.swift in Sources */,

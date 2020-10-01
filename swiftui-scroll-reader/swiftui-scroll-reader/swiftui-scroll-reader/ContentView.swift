@@ -16,6 +16,8 @@ struct ContentView: View {
 struct Home: View {
     
     @State var inputText: String = ""
+    @State var showImagePicker: Bool = false
+    @State var imageData: Data = Data(count: 0)
     @StateObject var allMessages = Messages()
     
     var body: some View {
@@ -68,7 +70,7 @@ struct Home: View {
                     HStack(spacing: 15) {
                         TextField("Message", text: self.$inputText)
                         Button(action: {
-                            
+                            self.showImagePicker.toggle()
                         }, label: {
                             Image(systemName: "paperclip.circle.fill")
                                 .font(.system(size: 22))
@@ -107,22 +109,15 @@ struct Home: View {
         }
         .edgesIgnoringSafeArea(.bottom)
         .background(Color("Color").edgesIgnoringSafeArea(.top))
-    }
-}
+        .fullScreenCover(isPresented: self.$showImagePicker) {
+            if self.imageData.count != 0 {
+                allMessages.writeMessage(id: Date(), message: "", isMyMessage: true, profilePic: "p1", photo: self.imageData)
+            }
+        } content: {
+            ImagePicker(imagePicker: self.$showImagePicker, imageData: self.$imageData)
+        }
 
-struct BubbleArrow: Shape {
-    
-    var isMyMessage: Bool
-    
-    func path(in rect: CGRect) -> Path {
-        let path = UIBezierPath(roundedRect: rect,
-                                byRoundingCorners: isMyMessage ?
-                                    [.topLeft, .bottomLeft, .bottomRight] :
-                                    [.topRight, .bottomLeft, .bottomRight],
-                                cornerRadii: CGSize(width: 10, height: 10))
-        return Path(path.cgPath)
     }
-    
 }
 
 struct RoundedShape: Shape {

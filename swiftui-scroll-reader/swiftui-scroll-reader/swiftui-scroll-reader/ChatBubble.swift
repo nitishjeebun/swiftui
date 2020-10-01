@@ -15,10 +15,17 @@ struct ChatBubble: View {
         HStack(alignment: .top, spacing: 10) {
             if message.isMyMessage {
                 Spacer(minLength: 25)
-                Text(message.message)
-                    .padding(.all)
-                    .background(Color.black.opacity(0.06))
-                    .clipShape(BubbleArrow(isMyMessage: true))
+                if message.photo == nil {
+                    Text(message.message)
+                        .padding(.all)
+                        .background(Color.black.opacity(0.06))
+                        .clipShape(BubbleArrow(isMyMessage: true))
+                } else {
+                    Image(uiImage: UIImage(data: message.photo!)!)
+                        .resizable()
+                        .frame(width: UIScreen.main.bounds.width - 150, height: 150)
+                        .clipShape(BubbleArrow(isMyMessage: true))
+                }
                 Image(message.profilePic)
                     .resizable()
                     .frame(width: 30, height: 30)
