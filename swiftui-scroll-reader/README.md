@@ -14,6 +14,9 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 12.0.
+- Image Picker, ChatBubble, BubbleArrow.
+- ScrollView, ScrollViewReader, Scroll To Bottom.
+- fullScreenCover, clipShape, onChange, animation.
 
 ### Find me on:
 
