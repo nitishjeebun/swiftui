@@ -1,6 +1,6 @@
-# SwiftUI - MVVM Design Pattern
+# SwiftUI - Dashboard - Grids, Tab View with Swipe Gestures
 
-- Video by Kavsoft on [YouTube](https://youtu.be/mRk0F1Ii718)
+- Video by Kavsoft on [YouTube](https://youtu.be/dRdguneAh8M)
 
 ### Preview
 
@@ -13,10 +13,7 @@
 
 ### Features
 
-- SwiftUI 2.0 & Xcode 11.6.
-- MVVM Design Pattern.
-- JSON Decoder.
-- UIActivityIndicatorView.
+- SwiftUI 2.0 & Xcode 12.0.
 
 ### Find me on:
 

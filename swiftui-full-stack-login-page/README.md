@@ -20,8 +20,7 @@
 
 ### Find me on:
 
-- [GitHub](https://github.com/duonghominhhuy)
-- [Twitter](https://twitter.com/duonghominhhuy)
+- [GitHub](https://github.com/duonghominhhuy) and [Twitter](https://twitter.com/duonghominhhuy)
 - Find more SwiftUI apps on [Practical SwiftUI](https://github.com/duonghominhhuy/practical-swiftui)
 
 

@@ -27,7 +27,7 @@
 - Fitness Dashboard - Bar Charts, Progress Rings
 - Firebase Connection - No App Delegate Solution 
 - Dating UI - Depth Stacks, Gestures
-- Dashboard - Grids, Tab View with Swipe Gestures
+- [Dashboard - Grids, Tab View with Swipe Gestures](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-dashboard-grids)
 - [Scroll Reader - Image Picker, Chat UI](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-scroll-reader)
 - [Carousel List - Custom Grids and Animations](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-carousel-list)
 - [Furniture App](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-furniture-app)
