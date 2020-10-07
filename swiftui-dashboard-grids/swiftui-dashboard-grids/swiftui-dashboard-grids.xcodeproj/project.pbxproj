@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		64462D77252DFC3900DC9032 /* Fitness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64462D76252DFC3900DC9032 /* Fitness.swift */; };
+		64462D7C252E10FE00DC9032 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64462D7B252E10FE00DC9032 /* GridView.swift */; };
 		64C361E4252CA02000EE8953 /* swiftui_dashboard_gridsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C361E3252CA02000EE8953 /* swiftui_dashboard_gridsApp.swift */; };
 		64C361E6252CA02000EE8953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C361E5252CA02000EE8953 /* ContentView.swift */; };
 		64C361E8252CA02000EE8953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C361E7252CA02000EE8953 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		64462D76252DFC3900DC9032 /* Fitness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness.swift; sourceTree = "<group>"; };
+		64462D7B252E10FE00DC9032 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		64C361E0252CA02000EE8953 /* swiftui-dashboard-grids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-dashboard-grids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C361E3252CA02000EE8953 /* swiftui_dashboard_gridsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_dashboard_gridsApp.swift; sourceTree = "<group>"; };
 		64C361E5252CA02000EE8953 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				64C361E3252CA02000EE8953 /* swiftui_dashboard_gridsApp.swift */,
-				64C361E5252CA02000EE8953 /* ContentView.swift */,
 				64462D76252DFC3900DC9032 /* Fitness.swift */,
+				64C361E5252CA02000EE8953 /* ContentView.swift */,
+				64462D7B252E10FE00DC9032 /* GridView.swift */,
 				64C361E7252CA02000EE8953 /* Assets.xcassets */,
 				64C361EC252CA02000EE8953 /* Info.plist */,
 				64C361E9252CA02000EE8953 /* Preview Content */,
@@ -264,6 +267,7 @@
 			files = (
 				64462D77252DFC3900DC9032 /* Fitness.swift in Sources */,
 				64C361E6252CA02000EE8953 /* ContentView.swift in Sources */,
+				64462D7C252E10FE00DC9032 /* GridView.swift in Sources */,
 				64C361E4252CA02000EE8953 /* swiftui_dashboard_gridsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

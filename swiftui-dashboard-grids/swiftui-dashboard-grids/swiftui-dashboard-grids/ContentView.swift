@@ -27,6 +27,7 @@ struct Home: View {
                 Spacer(minLength: 0)
             }
             .padding(.horizontal)
+            
             HStack(spacing: 0) {
                 Text("Day")
                     .foregroundColor(self.index == 0 ? .white : Color("Color").opacity(0.7))
@@ -36,7 +37,9 @@ struct Home: View {
                     .background(Color("Color").opacity(self.index == 0 ? 1: 0))
                     .clipShape(Capsule())
                     .onTapGesture {
-                        self.index = 0
+                        withAnimation(.default) {
+                            self.index = 0
+                        }
                     }
                 Spacer(minLength: 0)
                 Text("Week")
@@ -47,7 +50,9 @@ struct Home: View {
                     .background(Color("Color").opacity(self.index == 1 ? 1: 0))
                     .clipShape(Capsule())
                     .onTapGesture {
-                        self.index = 1
+                        withAnimation(.default) {
+                            self.index = 1
+                        }
                     }
                 Spacer(minLength: 0)
                 Text("Month")
@@ -58,13 +63,28 @@ struct Home: View {
                     .background(Color("Color").opacity(self.index == 2 ? 1: 0))
                     .clipShape(Capsule())
                     .onTapGesture {
-                        self.index = 2
+                        withAnimation(.default) {
+                            self.index = 2
+                        }
                     }
             }
             .background(Color.black.opacity(0.06))
             .clipShape(Capsule())
             .padding(.horizontal)
             .padding(.top, 25)
+            
+            TabView(selection: self.$index) {
+                GridView(fitnessData: fit_Data)
+                    .tag(0)
+                GridView(fitnessData: week_Fit_Data)
+                    .tag(1)
+                VStack {
+                    Text("Montly Data")
+                }
+                .tag(2)
+            }
+            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
+            
             Spacer(minLength: 0)
         }
         .padding(.top)

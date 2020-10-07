@@ -15,8 +15,6 @@ struct Fitness : Identifiable {
     var suggest : String
 }
 
-// Daily Data...
-
 var fit_Data = [
     
     Fitness(id: 0, title: "Heart Rate", image: "heart", data: "124 bpm", suggest: "80-120\nHealthy"),
@@ -31,8 +29,6 @@ var fit_Data = [
     
     Fitness(id: 5, title: "Cycling", image: "cycle", data: "15.3 km", suggest: "Daily Goal\n20 km"),
 ]
-
-// Monthly Data...
 
 var week_Fit_Data = [
 
