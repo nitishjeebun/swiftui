@@ -1,6 +1,6 @@
-# SwiftUI - Dashboard - Grids, Tab View with Swipe Gestures
+# SwiftUI - Dating UI - Depth Stacks, Gestures
 
-- Video by Kavsoft on [YouTube](https://youtu.be/dRdguneAh8M)
+- Video by Kavsoft on [YouTube](https://youtu.be/8gIsZb9miG0)
 
 ### Preview
 
@@ -14,9 +14,11 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 12.0.
-- VStack, HStack, ZStack.
-- LazyVGrid, GridItem.
-- Custom Tab View, Swipe Gestures.
+<!--
+- Image Picker, ChatBubble, BubbleArrow.
+- ScrollView, ScrollViewReader, Scroll To Bottom.
+- fullScreenCover, clipShape, onChange, animation.
+-->
 
 ### Find me on:
 
