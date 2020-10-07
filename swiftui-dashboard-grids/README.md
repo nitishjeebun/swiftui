@@ -14,6 +14,8 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 12.0.
+- VStack, HStack, ZStack.
+- LazyVGrid, GridItem.
 
 ### Find me on:
 
