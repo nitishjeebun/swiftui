@@ -13,6 +13,8 @@
 		64462D9A252E19A600DC9032 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64462D99252E19A600DC9032 /* Preview Assets.xcassets */; };
 		64462DA5252E19A700DC9032 /* swiftui_dating_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64462DA4252E19A700DC9032 /* swiftui_dating_uiTests.swift */; };
 		64462DB0252E19A700DC9032 /* swiftui_dating_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64462DAF252E19A700DC9032 /* swiftui_dating_uiUITests.swift */; };
+		645F90DC2530BA9400D97980 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645F90DB2530BA9400D97980 /* Profile.swift */; };
+		645F90E12530BB7E00D97980 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645F90E02530BB7E00D97980 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		64462DAB252E19A700DC9032 /* swiftui-dating-uiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-dating-uiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64462DAF252E19A700DC9032 /* swiftui_dating_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_dating_uiUITests.swift; sourceTree = "<group>"; };
 		64462DB1252E19A700DC9032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645F90DB2530BA9400D97980 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		645F90E02530BB7E00D97980 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				64462D92252E19A500DC9032 /* swiftui_dating_uiApp.swift */,
+				645F90DB2530BA9400D97980 /* Profile.swift */,
 				64462D94252E19A500DC9032 /* ContentView.swift */,
+				645F90E02530BB7E00D97980 /* ProfileView.swift */,
 				64462D96252E19A600DC9032 /* Assets.xcassets */,
 				64462D9B252E19A600DC9032 /* Info.plist */,
 				64462D98252E19A600DC9032 /* Preview Content */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				645F90E12530BB7E00D97980 /* ProfileView.swift in Sources */,
 				64462D95252E19A500DC9032 /* ContentView.swift in Sources */,
+				645F90DC2530BA9400D97980 /* Profile.swift in Sources */,
 				64462D93252E19A500DC9032 /* swiftui_dating_uiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
