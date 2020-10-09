@@ -55,6 +55,7 @@ struct Home: View {
                     }
                 }
             }
+            .padding([.horizontal,.bottom])
             Spacer(minLength: 0)
         }
         .background(Color.black.opacity(0.06).edgesIgnoringSafeArea(.all))
