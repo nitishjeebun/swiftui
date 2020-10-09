@@ -18,6 +18,24 @@ struct ProfileView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: frame.width, height: frame.height)
+            ZStack(alignment: Alignment(horizontal: .center, vertical: .top)) {
+                (profile.offset > 0 ? Color.green : Color("Color"))
+                    .opacity(profile.offset != 0 ? 0.7 : 0)
+                HStack {
+                    if profile.offset < 0 {
+                        Spacer(minLength: 0)
+                    }
+                    Text(profile.offset == 0 ? "" : (profile.offset > 0 ? "Liked" : "Rejected"))
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                        .padding(.top, 25)
+                        .padding(.horizontal)
+                    if profile.offset > 0 {
+                        Spacer(minLength: 0)
+                    }
+                }
+            }
             LinearGradient(gradient: .init(colors: [Color.black.opacity(0.4)]), startPoint: .center, endPoint: .bottom)
             VStack(spacing: 15) {
                 HStack {
@@ -31,7 +49,7 @@ struct ProfileView: View {
                     .foregroundColor(.white)
                     Spacer(minLength: 0)
                 }
-                HStack(spacing: 25) {
+                HStack(spacing: 35) {
                     Spacer(minLength: 0)
                     Button {
                         withAnimation(Animation.easeIn(duration: 0.8)) {
@@ -64,6 +82,20 @@ struct ProfileView: View {
         }
         .cornerRadius(20)
         .offset(x: profile.offset)
+        .rotationEffect(.init(degrees: profile.offset == 0 ? 0 : (profile.offset > 0 ? 12 : -12)))
+        .gesture(
+            DragGesture()
+                .onChanged({ (value) in
+                    withAnimation(.default) {
+                        profile.offset = value.translation.width
+                    }
+                })
+                .onEnded({ (value) in
+                    withAnimation(Animation.easeIn(duration: 0.8)) {
+                        profile.offset = 0
+                    }
+                })
+        )
     }
 }
 
