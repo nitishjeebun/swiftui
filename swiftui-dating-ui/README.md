@@ -14,11 +14,9 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 12.0.1.
-<!--
-- Image Picker, ChatBubble, BubbleArrow.
-- ScrollView, ScrollViewReader, Scroll To Bottom.
-- fullScreenCover, clipShape, onChange, animation.
--->
+- GeometryReader, LinearGradient.
+- rotationEffect, gesture, withAnimation.
+- DragGesture (Swipe Left & Right Gestures).
 
 ### Find me on:
 
