@@ -14,6 +14,9 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 12.0.1.
+- Firebase, GoogleSignIn, FirebaseApp, GIDSignIn.
+- AppDelegate, ObservableObject.
+- UIApplicationDelegateAdaptor, GIDSignInDelegate.
 
 ### Find me on:
 
