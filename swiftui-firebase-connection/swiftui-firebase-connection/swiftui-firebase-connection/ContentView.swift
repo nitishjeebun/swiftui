@@ -6,16 +6,30 @@
 //
 
 import SwiftUI
+import GoogleSignIn
 
 struct ContentView: View {
+    
+    @ObservedObject var info: AppDelegate
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Button {
+                GIDSignIn.sharedInstance()?.presentingViewController = UIApplication.shared.windows.first?.rootViewController
+                GIDSignIn.sharedInstance()?.signIn()
+            } label: {
+                Text("Sign In")
+                    .foregroundColor(.white)
+                    .fontWeight(.bold)
+                    .padding(.vertical, 10)
+                    .padding(.horizontal, 45)
+                    .background(Color.red)
+                    .clipShape(Capsule())
+            }
+            Text(info.email)
+                .padding(.top, 25)
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+

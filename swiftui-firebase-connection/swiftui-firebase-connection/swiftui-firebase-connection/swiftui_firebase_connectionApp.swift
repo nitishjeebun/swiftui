@@ -17,18 +17,22 @@ struct swiftui_firebase_connectionApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(info: self.delegate)
         }
     }
 }
 
-class AppDelegate: NSObject, UIApplicationDelegate {
+class AppDelegate: NSObject, ObservableObject, UIApplicationDelegate {
+    
+    @Published var email: String = ""
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         FirebaseApp.configure()
         GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
         GIDSignIn.sharedInstance().delegate = self
         return true
     }
+    
 }
 
 extension AppDelegate: GIDSignInDelegate {
@@ -47,7 +51,12 @@ extension AppDelegate: GIDSignInDelegate {
                 print(error?.localizedDescription ?? "Error")
                 return
             }
-            print(result?.user.email ?? "Email")
+            guard let email = result?.user.email else {
+                print("No Email")
+                return
+            }
+            self.email = email
+            print(email)
         }
     }
     
