@@ -1,0 +1,6 @@
+framework module Pods_swiftui_firebase_connection_swiftui_firebase_connectionUITests {
+  umbrella header "Pods-swiftui-firebase-connection-swiftui-firebase-connectionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
