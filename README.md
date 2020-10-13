@@ -10,6 +10,7 @@
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/duonghominhhuy/practical-swiftui/pulls)
 
 ### Kavsoft
+- Scroll Animation - Scaling Items When User Scrolls
 - [Story App UI - Custom Carousel Slider](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-story-app)
 - Gradient Picker - Grids, Search Bar, Hex To RGB
 - [JSON Parsing - Completion Handlers](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-json-parsing-app)
