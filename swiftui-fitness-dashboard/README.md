@@ -13,7 +13,10 @@
 
 ### Features
 
-- SwiftUI 2.0 & Xcode 12.0.1.
+- SwiftUI 2.0 & Xcode 12.1.
+- Stylish Fitness Dashboard.
+- Bar Charts, Progress Rings.
+- ScrollView, LazyVGrid, Circle.
 
 ### Find me on:
 

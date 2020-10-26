@@ -25,7 +25,7 @@
 - Drag And Drop API
 - Hero Animation - Custom Animations 
 - Login Page - Custom Curves, Shapes, Animations 
-- Fitness Dashboard - Bar Charts, Progress Rings
+- [Fitness Dashboard - Bar Charts, Progress Rings](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-fitness-dashboard)
 - [Firebase Connection - No App Delegate Solution](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-firebase-connection)
 - [Dating UI - Depth Stacks, Gestures](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-dating-ui)
 - [Dashboard - Grids, Tab View with Swipe Gestures](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-dashboard-grids)
