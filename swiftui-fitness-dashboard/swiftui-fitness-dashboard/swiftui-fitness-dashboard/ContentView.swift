@@ -76,6 +76,61 @@ struct Home: View {
                 .background(Color.white.opacity(0.06))
                 .cornerRadius(10)
                 .padding()
+                // Rings Chart - Stats Grid
+                HStack {
+                    Text("Statistics")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                    Spacer(minLength: 0)
+                    Button {
+                        
+                    } label: {
+                        Image("menu")
+                            .renderingMode(.template)
+                            .foregroundColor(.white)
+                    }
+                    
+                }
+                .padding()
+                LazyVGrid(columns: columns, spacing: 30) {
+                    ForEach(stats_Data) { stat in
+                        VStack(spacing: 22) {
+                            HStack {
+                                Text(stat.title)
+                                    .font(.system(size: 22))
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.white)
+                                Spacer(minLength: 0)
+                            }
+                            ZStack {
+                                let ringWidth = (UIScreen.main.bounds.width - 150) / 2
+                                Circle()
+                                    .trim(from: 0, to: 1)
+                                    .stroke(stat.color.opacity(0.05), lineWidth: 10)
+                                    .frame(width: ringWidth, height: ringWidth)
+                                Circle()
+                                    .trim(from: 0, to: (stat.currentData / stat.goal))
+                                    .stroke(stat.color, style: StrokeStyle(lineWidth: 10, lineCap: .round))
+                                    .frame(width: ringWidth, height: ringWidth)
+                                    .rotationEffect(.init(degrees: -90))
+                                Text(getPercent(current: stat.currentData, Goal: stat.goal) + " %")
+                                    .font(.system(size: 22))
+                                    .fontWeight(.bold)
+                                    .foregroundColor(Color("Color"))
+                            }
+                            Text(getDec(val: stat.currentData) + getType(val: stat.title))
+                                .font(.system(size: 22))
+                                .foregroundColor(.white)
+                                .fontWeight(.bold)
+                        }
+                        .padding()
+                        .background(Color.white.opacity(0.06))
+                        .cornerRadius(15)
+                        .shadow(color: Color.white.opacity(0.1), radius: 10, x: 0, y: 0)
+                    }
+                }
+                .padding()
             }
         }
         .background(Color.black.edgesIgnoringSafeArea(.all))
