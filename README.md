@@ -24,7 +24,7 @@
 - Parallax App - Parallax Scrolling
 - Drag And Drop API
 - Hero Animation - Custom Animations 
-- Login Page - Custom Curves, Shapes, Animations 
+- [Login Page - Custom Curves, Shapes, Animations](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-login-page)
 - [Fitness Dashboard - Bar Charts, Progress Rings](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-fitness-dashboard)
 - [Firebase Connection - No App Delegate Solution](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-firebase-connection)
 - [Dating UI - Depth Stacks, Gestures](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-dating-ui)
