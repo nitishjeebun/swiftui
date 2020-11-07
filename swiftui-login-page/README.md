@@ -14,6 +14,8 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 12.1.
+- VStack, HStack, ZStack.
+- Shape, Path, addLine, addArc.
 
 ### Find me on:
 
