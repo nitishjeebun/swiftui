@@ -14,6 +14,9 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 12.1.
+- ScrollView, TabView, LazyVGrid, DispatchQueue.
+- clipShape, offset, onTapGesture, withAnimation.
+- matchedGeometryEffect, multilineTextAlignment.
 
 ### Find me on:
 
