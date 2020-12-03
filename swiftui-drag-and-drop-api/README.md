@@ -14,6 +14,9 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 12.2.
+- MVVM, ObservedObject, Identifiable.
+- ScrollView, LazyVGrid, GridItem, ZStack.
+- DropDelegate, MobileCoreServices, performDrop().
 
 ### Find me on:
 
