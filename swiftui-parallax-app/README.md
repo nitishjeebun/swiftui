@@ -1,6 +1,6 @@
 # SwiftUI - Parallax App - Parallax Scrolling
 
-- Video by Kavsoft on [YouTube](https://youtu.be/vTwqAGziNwE)
+- Credits by Kavsoft on [YouTube](https://youtu.be/vTwqAGziNwE)
 
 ### Preview
 
@@ -14,6 +14,7 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 12.2.
+- ScrollView, GeometryReader.
 
 ### Find me on:
 
