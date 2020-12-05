@@ -19,7 +19,7 @@
 - [Fashion App UI - Translucent Background Effect](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-fashion-app)
 - [Shoe App - Custom Tab Menu's](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-shoe-app) 
 - [PHPicker - SwiftUI PhotosUI PHPicker](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-phpicker)
-- iMessage Pinned View - Custom Swipe Actions
+- [iMessage Pinned View - Custom Swipe Actions](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-imessage-pinned-view)
 - [Curved Tab Bar - Custom Paths, Solid Animations](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-curved-tab-bar)
 - [Parallax App - Parallax Scrolling](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-parallax-app)
 - [Drag and Drop API](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-drag-and-drop-api)
