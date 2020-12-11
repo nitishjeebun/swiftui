@@ -14,6 +14,8 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 12.2.
+- CShape, Path, addQuadCurve.
+- ZStack, HStack, GeometryReader.
 
 ### Find me on:
 
