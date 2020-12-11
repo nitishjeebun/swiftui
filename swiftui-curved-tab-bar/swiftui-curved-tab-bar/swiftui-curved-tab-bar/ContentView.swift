@@ -16,16 +16,19 @@ struct ContentView: View {
 struct Home: View {
     
     @State private var index = 0
+    @State private var curvePosition: CGFloat = 0
     
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom), content: {
             Color("Color")
+            // Tab Bar
             HStack {
                 GeometryReader { geometry in
                     VStack {
                         Button(action: {
                             withAnimation(.spring()) {
                                 index = 0
+                                self.curvePosition = geometry.frame(in: .global).midX
                             }
                         }) {
                             Image("home")
@@ -34,10 +37,18 @@ struct Home: View {
                                 .foregroundColor(index == 0 ? .black : .gray)
                                 .frame(width: 28.0, height: 28.0)
                                 .padding(.all, 15.0)
+                                // animating View...
+                                .background(Color.white.opacity(index == 0 ? 1 : 0).clipShape(Circle()))
+                                .offset(y: index == 0 ? -35 : 0)
                         }
                     }
                     // 28 + padding 15 = 43
                     .frame(width: 43.0, height: 43.0)
+                    .onAppear(perform: {
+                        DispatchQueue.main.async {
+                            self.curvePosition = geometry.frame(in: .global).midX
+                        }
+                    })
                 }
                 .frame(width: 43.0, height: 43.0)
                 Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
@@ -46,6 +57,7 @@ struct Home: View {
                         Button(action: {
                             withAnimation(.spring()) {
                                 index = 1
+                                self.curvePosition = geometry.frame(in: .global).midX
                             }
                         }) {
                             Image("search")
@@ -54,6 +66,9 @@ struct Home: View {
                                 .foregroundColor(index == 1 ? .black : .gray)
                                 .frame(width: 28.0, height: 28.0)
                                 .padding(.all, 15.0)
+                                // animating View...
+                                .background(Color.white.opacity(index == 1 ? 1 : 0).clipShape(Circle()))
+                                .offset(y: index == 1 ? -35 : 0)
                         }
                     }
                     // 28 + padding 15 = 43
@@ -66,6 +81,7 @@ struct Home: View {
                         Button(action: {
                             withAnimation(.spring()) {
                                 index = 2
+                                self.curvePosition = geometry.frame(in: .global).midX
                             }
                         }) {
                             Image("cart")
@@ -74,6 +90,9 @@ struct Home: View {
                                 .foregroundColor(index == 2 ? .black : .gray)
                                 .frame(width: 28.0, height: 28.0)
                                 .padding(.all, 15.0)
+                                // animating View...
+                                .background(Color.white.opacity(index == 2 ? 1 : 0).clipShape(Circle()))
+                                .offset(y: index == 2 ? -35 : 0)
                         }
                     }
                     // 28 + padding 15 = 43
@@ -86,6 +105,7 @@ struct Home: View {
                         Button(action: {
                             withAnimation(.spring()) {
                                 index = 3
+                                self.curvePosition = geometry.frame(in: .global).midX
                             }
                         }) {
                             Image("account")
@@ -94,6 +114,9 @@ struct Home: View {
                                 .foregroundColor(index == 3 ? .black : .gray)
                                 .frame(width: 28.0, height: 28.0)
                                 .padding(.all, 15.0)
+                                // animating View...
+                                .background(Color.white.opacity(index == 3 ? 1 : 0).clipShape(Circle()))
+                                .offset(y: index == 3 ? -35 : 0)
                         }
                     }
                     // 28 + padding 15 = 43
@@ -101,19 +124,39 @@ struct Home: View {
                 }
                 .frame(width: 43.0, height: 43.0)
             }
-            .padding(.horizontal, 25.0)
-            .padding(.top, 8.0)
-            .padding(.bottom, 10.0)
-            .background(Color.white)
+            .padding(.top, 8)
+            .padding(.horizontal, UIApplication.shared.windows.first?.safeAreaInsets.bottom == 0 ? 25 : 35)
+            .padding(.bottom, UIApplication.shared.windows.first?.safeAreaInsets.bottom == 0 ? 8 : UIApplication.shared.windows.first?.safeAreaInsets.bottom)
+            .background(Color.white.clipShape(CShape(curvePos: curvePosition)))
         })
         .edgesIgnoringSafeArea(.all)
     }
 }
 
+struct CShape: Shape {
+    var curvePos: CGFloat
+    var animatableData: CGFloat {
+        get { return curvePos }
+        set { curvePos = newValue }
+    }
+    
+    func path(in rect: CGRect) -> Path {
+        return Path { path in
+            // path
+            path.move(to: CGPoint(x: 0, y: 0))
+            path.addLine(to: CGPoint(x: 0, y: rect.height))
+            path.addLine(to: CGPoint(x: rect.width, y: rect.height))
+            path.addLine(to: CGPoint(x: rect.width, y: 0))
+            // curve
+            path.move(to: CGPoint(x: curvePos + 40, y: 0))
+            path.addQuadCurve(to: CGPoint(x: curvePos - 40, y: 0),
+                              control: CGPoint(x: curvePos, y: 70))
+        }
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            ContentView()
-        }
+        ContentView()
     }
 }
