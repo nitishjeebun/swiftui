@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		647A0588258677A800698FFB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647A0587258677A800698FFB /* Message.swift */; };
+		647A058F2586782800698FFB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647A058E2586782800698FFB /* HomeViewModel.swift */; };
+		647A059525867C4900698FFB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647A059425867C4900698FFB /* HomeView.swift */; };
 		64F24565257B3CA300954E39 /* swiftui_imessage_pinned_viewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F24564257B3CA300954E39 /* swiftui_imessage_pinned_viewApp.swift */; };
 		64F24567257B3CA300954E39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F24566257B3CA300954E39 /* ContentView.swift */; };
 		64F24569257B3CA400954E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F24568257B3CA400954E39 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		647A0587258677A800698FFB /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		647A058E2586782800698FFB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		647A059425867C4900698FFB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		64F24561257B3CA300954E39 /* swiftui-imessage-pinned-view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-imessage-pinned-view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F24564257B3CA300954E39 /* swiftui_imessage_pinned_viewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_imessage_pinned_viewApp.swift; sourceTree = "<group>"; };
 		64F24566257B3CA300954E39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +39,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		647A058A2586780900698FFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64F24566257B3CA300954E39 /* ContentView.swift */,
+				647A059425867C4900698FFB /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		647A058C2586781000698FFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				647A0587258677A800698FFB /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		647A05922586782F00698FFB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				647A058E2586782800698FFB /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		64F24558257B3CA300954E39 = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				64F24564257B3CA300954E39 /* swiftui_imessage_pinned_viewApp.swift */,
-				64F24566257B3CA300954E39 /* ContentView.swift */,
+				647A058C2586781000698FFB /* Model */,
+				647A058A2586780900698FFB /* View */,
+				647A05922586782F00698FFB /* ViewModel */,
 				64F24568257B3CA400954E39 /* Assets.xcassets */,
 				64F2456D257B3CA400954E39 /* Info.plist */,
 				64F2456A257B3CA400954E39 /* Preview Content */,
@@ -138,8 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				647A0588258677A800698FFB /* Message.swift in Sources */,
 				64F24567257B3CA300954E39 /* ContentView.swift in Sources */,
 				64F24565257B3CA300954E39 /* swiftui_imessage_pinned_viewApp.swift in Sources */,
+				647A059525867C4900698FFB /* HomeView.swift in Sources */,
+				647A058F2586782800698FFB /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
