@@ -14,6 +14,8 @@
 ### Features
 
 - SwiftUI 2.0 & Xcode 12.2.
+- NavigationView, ScrollView, LazyVGrid, LazyVStack.
+- Namespace, contextMenu, gesture, matchedGeometryEffect.
 
 ### Find me on:
 
