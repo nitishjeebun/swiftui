@@ -15,7 +15,7 @@
 - Gradient Picker - Grids, Search Bar, Hex To RGB
 - [JSON Parsing - Completion Handlers](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-json-parsing-app)
 - Music Player UI - Neumorphic Design 
-- 3D Cube - Instagram Story 3D Cube Transition
+- [3D Cube - Instagram Story 3D Cube Transition](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-3d-cube)
 - [Fashion App UI - Translucent Background Effect](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-fashion-app)
 - [Shoe App - Custom Tab Menu's](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-shoe-app) 
 - [PHPicker - SwiftUI PhotosUI PHPicker](https://github.com/duonghominhhuy/practical-swiftui/tree/master/swiftui-phpicker)
